@@ -1,0 +1,336 @@
+{
+  "project": "Auto-SEO Pipeline",
+  "branchName": "compound/auto-seo-pipeline",
+  "description": "Automated hot-topic SEO site builder: input a topic name, output a fully deployed 25+ page site in under 1 hour",
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "Create TopicConfig type definition and config loader",
+      "description": "Create src/config/topic-config.ts with a TopicConfig type covering all site-level settings (domain, siteName, topicName, gtmId, baiduVerification, indexNowKey, leadMagnetFormAction, handoffUrls, utmSource) and a getTopicConfig() function that reads from TOPIC env var.",
+      "acceptanceCriteria": [
+        "File src/config/topic-config.ts exists",
+        "File exports type TopicConfig with fields: domain, siteName, topicName, gtmId, baiduVerification, indexNowKey, leadMagnetFormAction, handoffBaseUrl, utmSource",
+        "File exports function getTopicConfig() that returns TopicConfig",
+        "getTopicConfig() reads process.env.TOPIC and loads matching config",
+        "A 'happyhorse' config object exists with current tryhappyhorse.xyz values",
+        "Run `TOPIC=happyhorse npx tsc --noEmit` - exits with code 0"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-002",
+      "title": "Replace hardcoded SITE_ORIGIN in content.ts with topic config",
+      "description": "Change src/lib/content.ts line 9 SITE_ORIGIN from hardcoded 'https://tryhappyhorse.xyz' to read from getTopicConfig().domain.",
+      "acceptanceCriteria": [
+        "File src/lib/content.ts does NOT contain hardcoded 'tryhappyhorse.xyz'",
+        "File src/lib/content.ts imports and uses getTopicConfig()",
+        "Run `TOPIC=happyhorse npm run build` - exits with code 0",
+        "File out/index.html contains 'tryhappyhorse.xyz' (config value applied correctly)"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-003",
+      "title": "Replace hardcoded SITE_NAME in seo.ts with topic config",
+      "description": "Change src/lib/seo.ts SITE_NAME from hardcoded 'HappyHorse AI Video Guide' to getTopicConfig().siteName.",
+      "acceptanceCriteria": [
+        "File src/lib/seo.ts does NOT contain hardcoded 'HappyHorse AI Video Guide'",
+        "File src/lib/seo.ts imports and uses getTopicConfig()",
+        "Run `TOPIC=happyhorse npm run build` - exits with code 0",
+        "File out/index.html contains 'HappyHorse AI Video Guide' (config value applied)"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-004",
+      "title": "Replace hardcoded GTM ID and Baidu token in layout.tsx with topic config",
+      "description": "Change app/layout.tsx to read gtmContainerId and baidu verification from getTopicConfig() instead of hardcoded values.",
+      "acceptanceCriteria": [
+        "File app/layout.tsx does NOT contain hardcoded 'GTM-WGQVVGFZ'",
+        "File app/layout.tsx does NOT contain hardcoded 'codeva-4MsLl56Xlo'",
+        "File app/layout.tsx imports and uses getTopicConfig()",
+        "Run `TOPIC=happyhorse npm run build` - exits with code 0",
+        "File out/index.html contains 'GTM-WGQVVGFZ' (config value applied)"
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-005",
+      "title": "Replace hardcoded handoff URLs and UTM in page-shell.ts with topic config",
+      "description": "Change src/lib/page-shell.ts to read ELSER_HANDOFFS base URL and UTM source from getTopicConfig() instead of hardcoded values.",
+      "acceptanceCriteria": [
+        "File src/lib/page-shell.ts does NOT contain hardcoded 'tryhappyhorse.xyz' in UTM_BASE",
+        "File src/lib/page-shell.ts reads handoff URL base and UTM source from topic config",
+        "Run `TOPIC=happyhorse npm run build` - exits with code 0",
+        "File out/index.html contains 'utm_source=tryhappyhorse.xyz' (config value applied)"
+      ],
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-006",
+      "title": "Replace hardcoded values in postbuild.mjs and site-copy.ts with topic config",
+      "description": "Change scripts/postbuild.mjs siteOrigin and src/lib/site-copy.ts leadMagnet.formAction to read from topic config.",
+      "acceptanceCriteria": [
+        "File scripts/postbuild.mjs does NOT contain hardcoded 'tryhappyhorse.xyz'",
+        "File src/lib/site-copy.ts reads formAction from topic config or env",
+        "Run `TOPIC=happyhorse npm run build` - exits with code 0",
+        "File out/sitemap.xml contains 'tryhappyhorse.xyz' in all <loc> entries"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-007",
+      "title": "Verify full build with TOPIC env var produces identical output to current site",
+      "description": "Run a complete build with TOPIC=happyhorse and verify the output matches the current production site structure.",
+      "acceptanceCriteria": [
+        "Run `TOPIC=happyhorse npm run build` - exits with code 0",
+        "Run `ls out/*.html out/**/*.html | wc -l` - count matches current page count (34+)",
+        "File out/sitemap.xml contains 34 <loc> entries",
+        "File out/robots.txt contains 'Sitemap: https://tryhappyhorse.xyz/sitemap.xml'",
+        "File out/index.html contains 'GTM-WGQVVGFZ'",
+        "File out/index.html contains 'baidu-site-verification'",
+        "File out/happyhorse-vs-sora/index.html contains 'utm_source=tryhappyhorse.xyz'"
+      ],
+      "priority": 7,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-008",
+      "title": "Create keyword matrix generator script",
+      "description": "Create scripts/generate-keyword-matrix.mjs that takes a topic name + description and outputs a structured keyword-matrix.json with 6 categories of keywords and suggested page slugs.",
+      "acceptanceCriteria": [
+        "File scripts/generate-keyword-matrix.mjs exists",
+        "Run `node scripts/generate-keyword-matrix.mjs --topic=TestTopic --description='A test topic' --dry-run` - exits with code 0",
+        "Output file keyword-matrix.json is valid JSON",
+        "JSON contains keys: brandAwareness, features, comparisons, useCases, technical, controversy",
+        "Each category contains array of objects with: keyword, intent, suggestedSlug, suggestedPageType, priority",
+        "Total keyword count across all categories >= 25"
+      ],
+      "priority": 8,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-009",
+      "title": "Create MDX page batch generator script",
+      "description": "Create scripts/generate-pages.mjs that reads keyword-matrix.json and topic config, then generates MDX files with valid frontmatter and AI-generated body content for each keyword.",
+      "acceptanceCriteria": [
+        "File scripts/generate-pages.mjs exists",
+        "Script reads keyword-matrix.json from project root",
+        "Script reads topic config via TOPIC env var",
+        "Run with --dry-run flag - prints list of files to be generated without writing",
+        "Run without --dry-run - creates .mdx files in src/content/pages/",
+        "Each generated MDX file has YAML frontmatter with all required Zod schema fields",
+        "Each generated MDX file has markdown body content (min 200 chars)",
+        "related_pages in each file references at least 3 other generated pages",
+        "Run `npm run build` after generation - exits with code 0 (all pages pass schema validation)"
+      ],
+      "priority": 9,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-010",
+      "title": "Add image_prompt field to content schema and update asset generator",
+      "description": "Add optional image_prompt field to pageFrontmatterSchema in content-schema.ts. Update generate-assets.mjs to check frontmatter image_prompt first, then PROMPT_OVERRIDES, then auto-generate.",
+      "acceptanceCriteria": [
+        "File src/lib/content-schema.ts contains 'image_prompt' field (optional string)",
+        "Run `npm run typecheck` - exits with code 0",
+        "File scripts/generate-assets.mjs buildPrompt() checks page.imagePrompt before PROMPT_OVERRIDES",
+        "Existing pages without image_prompt still use PROMPT_OVERRIDES (no regression)",
+        "A test MDX with image_prompt in frontmatter uses that prompt for generation"
+      ],
+      "priority": 10,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-011",
+      "title": "Add concurrency support to image generation script",
+      "description": "Update generate-assets.mjs to support --concurrency=N flag for parallel image generation tasks.",
+      "acceptanceCriteria": [
+        "Script accepts --concurrency=N argument (default 1 = sequential)",
+        "With --concurrency=3, up to 3 image generation tasks run in parallel",
+        "Script still correctly saves all images and reports progress",
+        "Run `node scripts/generate-assets.mjs --help` - shows --concurrency option",
+        "Error in one parallel task does not crash other running tasks"
+      ],
+      "priority": 11,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-012",
+      "title": "Create GoDaddy domain availability checker",
+      "description": "Create scripts/domain-setup.mjs with --check mode that queries GoDaddy API for domain availability without purchasing.",
+      "acceptanceCriteria": [
+        "File scripts/domain-setup.mjs exists",
+        "Script reads GODADDY_API_KEY and GODADDY_API_SECRET from environment",
+        "Run `node scripts/domain-setup.mjs --check --domain=example12345xyz.com` - outputs availability status",
+        "Output includes: domain name, available (true/false), price if available",
+        "Script exits with code 0 on success, code 1 on API error"
+      ],
+      "priority": 12,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-013",
+      "title": "Add domain purchase and DNS configuration to domain-setup script",
+      "description": "Extend scripts/domain-setup.mjs to support --purchase and --configure-dns modes that buy the domain and set A/CNAME records for Vercel.",
+      "acceptanceCriteria": [
+        "Run with --purchase --domain=X --confirm - calls GoDaddy purchase API",
+        "Run with --configure-dns --domain=X - sets A record to 76.76.21.21 and CNAME www to cname.vercel-dns.com",
+        "Script refuses to purchase without --confirm flag (safety guard)",
+        "Script outputs structured JSON report: {domain, purchased, dnsConfigured, records: [...]}",
+        "Script handles errors: domain taken, insufficient funds, API rate limit"
+      ],
+      "priority": 13,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-014",
+      "title": "Create Vercel project setup script",
+      "description": "Create scripts/vercel-setup.mjs that creates a Vercel project, adds custom domain, sets env vars, and triggers first deployment.",
+      "acceptanceCriteria": [
+        "File scripts/vercel-setup.mjs exists",
+        "Script creates new Vercel project under specified team using Vercel CLI",
+        "Script adds custom domain to the project",
+        "Script sets TOPIC env var on the Vercel project",
+        "Script runs `vercel --prod` and waits for deployment to complete",
+        "Script outputs: {projectUrl, deploymentUrl, customDomain, status}",
+        "Run with --dry-run to preview actions without executing"
+      ],
+      "priority": 14,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-015",
+      "title": "Add Google Search Console API sitemap submission",
+      "description": "Extend scripts/submit-to-search-engines.mjs to submit sitemap URL to Google Search Console via API.",
+      "acceptanceCriteria": [
+        "Script reads GSC_SERVICE_ACCOUNT_JSON or GSC_API_KEY from environment",
+        "Script calls GSC API to submit sitemap URL for the site",
+        "Script outputs: {engine: 'google', status: 'submitted'|'error', message: '...'}",
+        "If GSC credentials not set, script logs warning and skips (does not crash)",
+        "Run `node scripts/submit-to-search-engines.mjs --engines=google` - attempts GSC submission"
+      ],
+      "priority": 15,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-016",
+      "title": "Add Baidu push API URL submission",
+      "description": "Extend scripts/submit-to-search-engines.mjs to batch-submit all URLs to Baidu via their push API.",
+      "acceptanceCriteria": [
+        "Script reads BAIDU_PUSH_TOKEN from environment",
+        "Script POSTs all site URLs to http://data.zz.baidu.com/urls?site=DOMAIN&token=TOKEN",
+        "Script outputs: {engine: 'baidu', status: 'submitted'|'error', urlCount: N, message: '...'}",
+        "If BAIDU_PUSH_TOKEN not set, script logs warning and skips (does not crash)",
+        "Run `node scripts/submit-to-search-engines.mjs --engines=baidu` - attempts Baidu submission"
+      ],
+      "priority": 16,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-017",
+      "title": "Add --engines flag for selective search engine submission",
+      "description": "Update scripts/submit-to-search-engines.mjs to support --engines=google,bing,baidu,indexnow flag to choose which engines to submit to.",
+      "acceptanceCriteria": [
+        "Run `node scripts/submit-to-search-engines.mjs --engines=indexnow` - only submits to IndexNow",
+        "Run `node scripts/submit-to-search-engines.mjs --engines=indexnow,baidu` - submits to both",
+        "Run without --engines flag - submits to all available engines (current default behavior preserved)",
+        "Each engine result logged as structured JSON line",
+        "Script exits with code 0 if at least one engine succeeds"
+      ],
+      "priority": 17,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-018",
+      "title": "Create site health check script",
+      "description": "Create scripts/health-check.mjs that validates a deployed site's SEO elements, page accessibility, and image availability.",
+      "acceptanceCriteria": [
+        "File scripts/health-check.mjs exists",
+        "Run `node scripts/health-check.mjs --domain=tryhappyhorse.xyz` - exits with code 0 for healthy site",
+        "Script checks: every page in sitemap returns HTTP 200",
+        "Script checks: every page has <link rel='canonical'>, og:title, og:image, application/ld+json",
+        "Script checks: sitemap.xml returns HTTP 200 and contains valid XML",
+        "Script checks: robots.txt returns HTTP 200 and references sitemap",
+        "Script outputs JSON report: {total, passed, warnings, failed, details: [...]}",
+        "Script exits with code 1 if any critical check fails"
+      ],
+      "priority": 18,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-019",
+      "title": "Create launch orchestrator script",
+      "description": "Create scripts/launch.mjs that chains all phases: topic config → keyword matrix → content gen → image gen → domain setup → vercel deploy → search submit → health check.",
+      "acceptanceCriteria": [
+        "File scripts/launch.mjs exists",
+        "Run `node scripts/launch.mjs --help` - shows usage with all flags",
+        "Script accepts --topic, --domain, --description as required flags",
+        "Script executes phases sequentially: config → keywords → pages → images → domain → deploy → submit → verify",
+        "Each phase logs start time, end time, and duration",
+        "If a phase fails, script stops and outputs which phase failed with error details",
+        "Script supports --resume-from=<phase> to skip completed phases",
+        "Script outputs final JSON report: {domain, pages, deployUrl, searchEngines, totalTime, status}"
+      ],
+      "priority": 19,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-020",
+      "title": "Create sites registry and management CLI",
+      "description": "Create scripts/sites.mjs CLI tool and sites-registry.json to track all deployed sites.",
+      "acceptanceCriteria": [
+        "File scripts/sites.mjs exists",
+        "File sites-registry.json is created on first use (empty array)",
+        "Run `node scripts/sites.mjs list` - outputs table of registered sites",
+        "Run `node scripts/sites.mjs add --domain=tryhappyhorse.xyz --topic=happyhorse` - adds entry to registry",
+        "Run `node scripts/sites.mjs status tryhappyhorse.xyz` - runs health-check and shows result",
+        "Each registry entry contains: domain, topic, pageCount, deployedAt, lastChecked, status",
+        "Run `node scripts/sites.mjs list` after add - shows the added site"
+      ],
+      "priority": 20,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "T-021",
+      "title": "Add launch:site npm script and register HappyHorse as first site",
+      "description": "Add npm run launch script to package.json. Register tryhappyhorse.xyz in sites-registry.json as the first managed site.",
+      "acceptanceCriteria": [
+        "package.json contains script 'launch' pointing to scripts/launch.mjs",
+        "package.json contains script 'sites' pointing to scripts/sites.mjs",
+        "package.json contains script 'health-check' pointing to scripts/health-check.mjs",
+        "Run `npm run sites -- list` - shows tryhappyhorse.xyz entry",
+        "Run `npm run health-check -- --domain=tryhappyhorse.xyz` - exits with code 0"
+      ],
+      "priority": 21,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
