@@ -1,0 +1,139 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - link "Elser home" [ref=e8] [cursor=pointer]:
+          - /url: /zh
+          - img [ref=e9]
+        - generic [ref=e14]:
+          - link "首页" [ref=e16] [cursor=pointer]:
+            - /url: /zh
+            - img [ref=e17]
+            - generic [ref=e19]: 首页
+          - link "奖励" [ref=e21] [cursor=pointer]:
+            - /url: /zh/rewards
+            - img [ref=e22]
+            - generic [ref=e24]: 奖励
+          - link "我的项目" [ref=e26] [cursor=pointer]:
+            - /url: /zh/anime/projects
+            - img [ref=e27]
+            - generic [ref=e29]: 我的项目
+          - generic [ref=e30]:
+            - link "动漫&电影" [ref=e31] [cursor=pointer]:
+              - /url: /zh/anime
+              - img [ref=e32]
+              - generic [ref=e34]: 动漫&电影
+            - generic [ref=e35]: POP
+          - link "AI 图像" [ref=e37] [cursor=pointer]:
+            - /url: /zh/ai-anime-generator
+            - img [ref=e38]
+            - generic [ref=e40]: AI 图像
+          - link "AI 视频" [ref=e42] [cursor=pointer]:
+            - /url: /zh/ai-image-animator
+            - img [ref=e43]
+            - generic [ref=e45]: AI 视频
+          - generic [ref=e46]:
+            - link "工具" [ref=e47] [cursor=pointer]:
+              - /url: /zh/tools
+              - img [ref=e48]
+              - generic [ref=e53]: 工具
+            - generic [ref=e54]: 新品
+          - generic [ref=e55]:
+            - link "模板" [ref=e56] [cursor=pointer]:
+              - /url: /zh/templates
+              - img [ref=e57]
+              - generic [ref=e59]: 模板
+            - generic [ref=e60]: 新品
+    - main [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e65]:
+          - button "订阅（起始价格）$9.99" [ref=e66]:
+            - generic [ref=e67]: 订阅（起始价格）$9.99
+          - button "Switch language" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+          - link "Join our Discord" [ref=e71] [cursor=pointer]:
+            - /url: https://discord.com/invite/AnuzHWr8gQ
+            - img [ref=e73]
+          - button "登录" [ref=e75]
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - heading "Elser AI 工具" [level=1] [ref=e80]
+              - paragraph [ref=e81]: 一键创建电影级影片、AI 动漫、AI 广告、AI 音乐、音效，或即时换装。从想法到成片，全部通过一键式 AI 工具完成。
+            - generic [ref=e83]:
+              - button "全部" [pressed] [ref=e85] [cursor=pointer]
+              - button "功能" [ref=e87] [cursor=pointer]
+              - button "智能体" [ref=e89] [cursor=pointer]
+              - button "图像工具" [ref=e91] [cursor=pointer]
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - heading "功能" [level=2] [ref=e94]
+              - generic [ref=e95]:
+                - link "hot 动漫电影工作室 从灵感到电影级作品" [ref=e96] [cursor=pointer]:
+                  - /url: /zh/anime
+                  - img [ref=e97]
+                  - generic [ref=e99]: hot
+                  - generic [ref=e105]:
+                    - paragraph [ref=e106]: 动漫电影工作室
+                    - paragraph [ref=e107]: 从灵感到电影级作品
+                - link "AI 图像生成 把灵感变成电影感画面" [ref=e108] [cursor=pointer]:
+                  - /url: /zh/ai-anime-generator
+                  - img [ref=e109]
+                  - generic [ref=e116]:
+                    - paragraph [ref=e117]: AI 图像生成
+                    - paragraph [ref=e118]: 把灵感变成电影感画面
+                - link "AI 视频生成 把画面变成镜头语言" [ref=e119] [cursor=pointer]:
+                  - /url: /zh/ai-image-animator
+                  - img [ref=e120]
+                  - generic [ref=e127]:
+                    - paragraph [ref=e128]: AI 视频生成
+                    - paragraph [ref=e129]: 把画面变成镜头语言
+                - link "AI 角色生成 为作品创建稳定角色" [ref=e130] [cursor=pointer]:
+                  - /url: /zh/ai-character-maker
+                  - img [ref=e131]
+                  - generic [ref=e138]:
+                    - paragraph [ref=e139]: AI 角色生成
+                    - paragraph [ref=e140]: 为作品创建稳定角色
+                - link "new AI 音乐生成 用音乐强化情绪表达" [ref=e141] [cursor=pointer]:
+                  - /url: /zh/tools/ai-music
+                  - img [ref=e142]
+                  - generic [ref=e144]: new
+                  - generic [ref=e150]:
+                    - paragraph [ref=e151]: AI 音乐生成
+                    - paragraph [ref=e152]: 用音乐强化情绪表达
+                - link "AI 音效生成 为场景补足声音细节" [ref=e153] [cursor=pointer]:
+                  - /url: /zh/ai-sound-effect-generator
+                  - img [ref=e154]
+                  - generic [ref=e161]:
+                    - paragraph [ref=e162]: AI 音效生成
+                    - paragraph [ref=e163]: 为场景补足声音细节
+            - generic [ref=e164]:
+              - heading "智能体" [level=2] [ref=e165]
+              - generic [ref=e166]:
+                - link "动漫智能体 动漫长片，一键生成" [ref=e167] [cursor=pointer]:
+                  - /url: /zh/ai-storyboard
+                  - img [ref=e168]
+                  - generic [ref=e175]:
+                    - paragraph [ref=e176]: 动漫智能体
+                    - paragraph [ref=e177]: 动漫长片，一键生成
+                - link "广告智能体 生成专业广告内容" [ref=e178] [cursor=pointer]:
+                  - /url: /zh/ai-ads
+                  - img [ref=e179]
+                  - generic [ref=e186]:
+                    - paragraph [ref=e187]: 广告智能体
+                    - paragraph [ref=e188]: 生成专业广告内容
+                - link "故事工坊 构建你的世界观" [ref=e189] [cursor=pointer]:
+                  - /url: /zh/tools/story-studio
+                  - img [ref=e190]
+                  - generic [ref=e197]:
+                    - paragraph [ref=e198]: 故事工坊
+                    - paragraph [ref=e199]: 构建你的世界观
+            - generic [ref=e200]:
+              - heading "图像工具" [level=2] [ref=e201]
+              - link "虚拟试衣 一键切换穿搭风格" [ref=e203] [cursor=pointer]:
+                - /url: /zh/tools/virtual-tryon
+                - img [ref=e204]
+                - generic [ref=e211]:
+                  - paragraph [ref=e212]: 虚拟试衣
+                  - paragraph [ref=e213]: 一键切换穿搭风格
+  - region "Notifications alt+T"

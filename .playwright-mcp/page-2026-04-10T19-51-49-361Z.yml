@@ -1,0 +1,149 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]: /
+      - listitem [ref=e9]:
+        - generic [ref=e10]: HappyHorse vs Seedance
+  - region "HappyHorse vs Seedance" [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: HappyHorse vs Seedance, Which Comparison Page to Trust
+      - heading "HappyHorse vs Seedance" [level=1] [ref=e14]
+      - paragraph [ref=e15]: If you want the direct answer, use this page as the only canonical HappyHorse vs Seedance comparison. HappyHorse is the rising topic drawing attention, Seedance is the clearer comparison anchor, and the safest guidance is to compare only what public evidence supports, then move onward to alternatives or the access path instead of trusting mirrored duplicate routes.
+    - generic "Page metadata" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Comparison
+        - generic [ref=e19]: Mixed
+        - generic [ref=e20]: Updated 2026-04-11
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - term [ref=e23]: Primary keyword
+          - definition [ref=e24]: HappyHorse vs Seedance
+        - generic [ref=e25]:
+          - term [ref=e26]: CTA type
+          - definition [ref=e27]: Compare Now
+        - generic [ref=e28]:
+          - term [ref=e29]: Generation mode
+          - definition [ref=e30]: None
+  - region "Some facts are supported, but other details remain uncertain" [ref=e31]:
+    - paragraph [ref=e32]: Mixed signal
+    - heading "Some facts are supported, but other details remain uncertain" [level=2] [ref=e33]
+    - paragraph [ref=e34]: Comparison framing is valid, but direct feature parity claims should be limited to what public evidence clearly supports.
+    - paragraph [ref=e35]: Readers should expect careful wording here because public reporting confirms the topic, while some product details still need cautious treatment.
+  - generic [ref=e36]:
+    - region "Fast facts from the content model" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Direct answer" [level=3] [ref=e44]
+            - generic [ref=e45]: Verified
+          - paragraph [ref=e46]: This page is the only canonical comparison route for this pair, and it should answer the query directly instead of forcing visitors to infer the conclusion from generic body copy
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Reverse route status" [level=3] [ref=e49]
+            - generic [ref=e50]: Verified
+          - paragraph [ref=e51]: /seedance-vs-happyhorse/ is intentionally excluded to avoid duplicate intent coverage and mirrored-route drift
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Best evidence-backed framing" [level=3] [ref=e54]
+            - generic [ref=e55]: Mixed
+          - paragraph [ref=e56]: Compare public attention, positioning, and practical next steps carefully, while treating exact feature parity or benchmark winner claims as mixed unless clearly sourced
+        - article [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Main onward path" [level=3] [ref=e59]
+            - generic [ref=e60]: Mixed
+          - paragraph [ref=e61]: The shared compare_now CTA should send this page onward to /happyhorse-alternatives/, while the body links visitors to the explainer and access routes when they need context or action
+    - region "Keep the evaluation moving with the canonical comparison path" [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Comparison next step
+        - heading "Keep the evaluation moving with the canonical comparison path" [level=2] [ref=e65]
+      - paragraph [ref=e66]: Use the comparison route to consolidate evidence-backed differences instead of splitting intent across duplicate pages.
+      - link "See the alternatives next" [ref=e67] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+      - paragraph [ref=e68]: This CTA stays route-safe by keeping comparison intent on the canonical comparison stack.
+  - region "Shared body content from the collection entry" [ref=e69]:
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - paragraph [ref=e74]:
+        - text: If you are comparing HappyHorse vs Seedance, this is the page to use. It is the canonical route for the pair, and it exists so the site can answer the comparison query directly without splitting intent into a mirrored
+        - code [ref=e75]: /seedance-vs-happyhorse/
+        - text: page.
+      - heading "Direct comparison answer" [level=2] [ref=e76]
+      - paragraph [ref=e77]: "The safest short answer is this: HappyHorse is the attention-driving topic, while Seedance is the clearer comparison anchor for practical evaluation. Public discussion supports the comparison intent itself, but it does not justify pretending we have complete, verified feature parity data or a settled benchmark winner."
+      - heading "What can be compared with confidence" [level=2] [ref=e78]
+      - paragraph [ref=e79]: This page can compare the search intent and user decision context with confidence. People searching this query usually want to know whether they should keep researching HappyHorse, switch to a more practical alternative path, or move into a workflow they can actually use now.
+      - paragraph [ref=e80]: It can also say clearly that this site is not the official source for either product. That matters because comparison pages become risky when they start sounding like product documentation instead of cautious, source-aware guidance.
+      - heading "What should stay cautious" [level=2] [ref=e81]
+      - paragraph [ref=e82]: Exact capability matchups, benchmark claims, pricing assumptions, access assumptions, and output-quality winner statements should stay cautious unless they are supported by reliable public evidence. When the public record is incomplete, this route should say that openly instead of filling the gap with confident-sounding copy.
+      - heading "The canonical route, and why the mirror stays absent" [level=2] [ref=e83]
+      - paragraph [ref=e84]:
+        - code [ref=e85]: /happyhorse-vs-seedance/
+        - text: is the only comparison route for this pair in the MVP. Keeping one canonical page helps search engines and visitors reach a single source of truth. It also prevents mirrored-route drift, where the same comparison gets rewritten under reversed keywords and starts competing with itself.
+      - paragraph [ref=e86]:
+        - text: That is why
+        - code [ref=e87]: /seedance-vs-happyhorse/
+        - text: should stay absent from both content and routing.
+      - heading "Where to go next" [level=2] [ref=e88]
+      - paragraph [ref=e89]:
+        - text: If you want a broader options view after this comparison, go to
+        - link "HappyHorse Alternatives" [ref=e90] [cursor=pointer]:
+          - /url: /happyhorse-alternatives/
+        - text: . If you need a clearer explainer first, read
+        - link "What Is HappyHorse?" [ref=e91] [cursor=pointer]:
+          - /url: /what-is-happyhorse/
+        - text: . If you want the site’s practical action path, continue to
+        - link "Try HappyHorse" [ref=e92] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - text: .
+      - heading "Non-official reminder" [level=2] [ref=e93]
+      - paragraph [ref=e94]: This website is an independent comparison resource. It should help visitors evaluate the query and move onward, but it should not imply official access, official benchmarks, or verified claims beyond what the cited public evidence supports.
+  - region "Questions this page should answer directly" [ref=e95]:
+    - generic [ref=e96]:
+      - paragraph [ref=e97]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e98]
+    - generic [ref=e99]:
+      - article [ref=e100]:
+        - heading "Why is there no /seedance-vs-happyhorse/ page?" [level=3] [ref=e101]
+        - paragraph [ref=e102]: The spec keeps one canonical comparison route to avoid content cannibalization.
+      - article [ref=e103]:
+        - heading "Can this page make hard claims about benchmark winners?" [level=3] [ref=e104]
+        - paragraph [ref=e105]: Only if those claims are backed by public evidence. Otherwise, it should present uncertainty clearly.
+      - article [ref=e106]:
+        - heading "Where should visitors go after reading this comparison?" [level=3] [ref=e107]
+        - paragraph [ref=e108]: Visitors who want broader options should use /happyhorse-alternatives/, while visitors who want context or a practical next step can continue to /what-is-happyhorse/ or /try-happyhorse/.
+  - region "Keep visitors moving through the intent cluster" [ref=e109]:
+    - generic [ref=e110]:
+      - paragraph [ref=e111]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e112]
+    - generic [ref=e113]:
+      - link "What Is HappyHorse? A careful explainer for people searching what HappyHorse is, what seems confirmed so far, and where to go next without overclaiming." [ref=e114] [cursor=pointer]:
+        - /url: /what-is-happyhorse/
+        - generic [ref=e115]: What Is HappyHorse?
+        - generic [ref=e116]: A careful explainer for people searching what HappyHorse is, what seems confirmed so far, and where to go next without overclaiming.
+      - link "HappyHorse Alternatives Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes." [ref=e117] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+        - generic [ref=e118]: HappyHorse Alternatives
+        - generic [ref=e119]: Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes.
+      - link "Try HappyHorse Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works." [ref=e120] [cursor=pointer]:
+        - /url: /try-happyhorse/
+        - generic [ref=e121]: Try HappyHorse
+        - generic [ref=e122]: Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works.
+  - complementary "Independent, non-official positioning" [ref=e123]:
+    - generic [ref=e124]:
+      - paragraph [ref=e125]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e126]
+    - paragraph [ref=e127]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - generic "Site footer" [ref=e128]:
+    - generic [ref=e129]:
+      - paragraph [ref=e130]: Site baseline
+      - paragraph [ref=e131]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e132]:
+      - link "Privacy & compliance" [ref=e133] [cursor=pointer]:
+        - /url: /privacy-compliance/

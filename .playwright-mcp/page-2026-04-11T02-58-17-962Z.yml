@@ -1,0 +1,437 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "happyhorses.io" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "happyhorses.io" [ref=e11]
+          - navigation [ref=e12]:
+            - list [ref=e13]:
+              - listitem [ref=e14]:
+                - link "Features" [ref=e15] [cursor=pointer]:
+                  - /url: /#features
+                  - img [ref=e16]
+                  - text: Features
+              - listitem [ref=e19]:
+                - link "Price" [ref=e20] [cursor=pointer]:
+                  - /url: /pricing
+                  - img [ref=e21]
+                  - text: Price
+              - listitem [ref=e23]:
+                - button "AI Effect" [ref=e24] [cursor=pointer]:
+                  - img [ref=e25]
+                  - text: AI Effect
+                  - img [ref=e28]
+              - listitem [ref=e30]:
+                - button "Image AI" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+                  - text: Image AI
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Video AI" [ref=e39] [cursor=pointer]:
+                  - img [ref=e40]
+                  - text: Video AI
+                  - img [ref=e43]
+              - listitem [ref=e45]:
+                - link "Blog" [ref=e46] [cursor=pointer]:
+                  - /url: /blog
+                  - img [ref=e47]
+                  - text: Blog
+        - generic [ref=e51]:
+          - button "English" [ref=e52] [cursor=pointer]:
+            - img
+            - generic [ref=e53]: English
+          - generic [ref=e55] [cursor=pointer]: Sign In
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - complementary [ref=e59]:
+          - generic [ref=e60]:
+            - button [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+            - generic:
+              - paragraph: HappyHorses
+              - paragraph: Creator Workbench
+          - generic [ref=e65]:
+            - generic [ref=e66]: Pinned
+            - generic [ref=e67]:
+              - button "Add tools" [ref=e68] [cursor=pointer]:
+                - img [ref=e70]
+                - generic:
+                  - paragraph: Add tools
+              - generic [ref=e71]:
+                - button "Text to Image Text to Image" [ref=e73]:
+                  - img "Text to Image" [ref=e75]
+                  - paragraph [ref=e77]: Text to Image
+                - button "Image to Image Image to Image" [ref=e79]:
+                  - img "Image to Image" [ref=e81]
+                  - paragraph [ref=e83]: Image to Image
+                - button "Qwen Image Layered Qwen Image Layered" [ref=e85]:
+                  - img "Qwen Image Layered" [ref=e87]
+                  - paragraph [ref=e89]: Qwen Image Layered
+                - button "Image Eraser Image Eraser" [ref=e91]:
+                  - img "Image Eraser" [ref=e93]
+                  - paragraph [ref=e95]: Image Eraser
+                - button "Background Remover Background Remover" [ref=e97]:
+                  - img "Background Remover" [ref=e99]
+                  - paragraph [ref=e101]: Background Remover
+                - button "Image Upscaler Image Upscaler" [ref=e103]:
+                  - img "Image Upscaler" [ref=e105]
+                  - paragraph [ref=e107]: Image Upscaler
+              - status [ref=e108]
+        - generic [ref=e109]:
+          - complementary [ref=e110]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - button "Text to Image Image Text to Image Free" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116]:
+                    - img "Text to Image" [ref=e118]
+                    - generic [ref=e119]:
+                      - generic [ref=e120]: Image
+                      - generic [ref=e122]:
+                        - generic [ref=e123]: Text to Image
+                        - generic [ref=e124]: Free
+                  - img [ref=e126]
+                - generic [ref=e129]:
+                  - paragraph [ref=e130]: Model
+                  - combobox [ref=e131]:
+                    - generic [ref=e132]:
+                      - img "Nano Banana" [ref=e134]
+                      - generic [ref=e135]:
+                        - paragraph [ref=e136]:
+                          - generic [ref=e138]: Nano Banana
+                        - paragraph [ref=e139]: Generate images from text with Nano Banana AI model
+                    - img
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: Prompt*
+                    - generic [ref=e145]: 0/2000
+                  - textbox "Describe the image you want to generate" [ref=e146]
+                - generic [ref=e147]:
+                  - text: Aspect Ratio
+                  - generic [ref=e148]:
+                    - button "1:1" [ref=e149] [cursor=pointer]:
+                      - generic [ref=e151]: 1:1
+                    - button "16:9" [ref=e152] [cursor=pointer]:
+                      - generic [ref=e154]: 16:9
+                    - button "3:2" [ref=e155] [cursor=pointer]:
+                      - generic [ref=e157]: 3:2
+                    - button "2:3" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e160]: 2:3
+                    - button "3:4" [ref=e161] [cursor=pointer]:
+                      - generic [ref=e163]: 3:4
+                    - button "4:3" [ref=e164] [cursor=pointer]:
+                      - generic [ref=e166]: 4:3
+                    - button "9:16" [ref=e167] [cursor=pointer]:
+                      - generic [ref=e169]: 9:16
+                - generic [ref=e170]:
+                  - text: Seed
+                  - spinbutton [ref=e171]: "-1"
+                - generic [ref=e172]:
+                  - text: Output Format
+                  - combobox [ref=e173]:
+                    - generic: JPEG
+                    - img
+              - generic [ref=e174]:
+                - button "Generate Image(2 credits)" [disabled] [ref=e175]:
+                  - img [ref=e176]
+                  - text: Generate Image
+                  - generic [ref=e179]: (2 credits)
+                - button "💳 Click to Pay for More Credits" [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181]: 💳
+                  - text: Click to Pay for More Credits
+          - main [ref=e182]:
+            - generic [ref=e185]:
+              - generic [ref=e189]: This Time Creation
+              - paragraph [ref=e192]: Oops! It looks like you haven't created anything yet.
+      - generic [ref=e195]:
+        - heading "happyhorses.io - Fast & Free Image generator" [level=1] [ref=e197]:
+          - text: happyhorses.io -
+          - generic [ref=e198]: Fast & Free
+          - img
+          - text: Image generator
+        - paragraph [ref=e199]: happyhorses.io is deployed and optimized by happyhorses.io using open-source AI models for fast and high-quality image creation.
+      - paragraph [ref=e203]: happyhorses.io is an independent AI service and is not affiliated with any model provider. We deploy and optimize Apache-2.0 licensed models on our own infrastructure.
+      - generic [ref=e204]:
+        - generic [ref=e207]:
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - paragraph [ref=e211]: Introduction
+              - heading "What AI models does happyhorses.io use?" [level=2] [ref=e212]
+            - paragraph [ref=e213]: happyhorses.io deploys and optimizes open-source 6B-parameter diffusion transformer models like happyhorses.io released under the Apache-2.0 license. We provide an enhanced inference pipeline, safety system, and UI for easier usage.
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - img [ref=e216]
+                - paragraph [ref=e219]: Photorealistic
+                - paragraph [ref=e220]: Photography-level Realism
+              - generic [ref=e221]:
+                - img [ref=e222]
+                - paragraph [ref=e224]: Bilingual Text
+                - paragraph [ref=e225]: Accurate Text Rendering
+              - generic [ref=e226]:
+                - img [ref=e227]
+                - paragraph [ref=e230]: World Knowledge
+                - paragraph [ref=e231]: Deep Semantic Understanding
+          - generic [ref=e233]:
+            - paragraph [ref=e234]: Workbench
+            - heading "Generate with the new happyhorses.io Turbo workspace" [level=3] [ref=e235]
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - img [ref=e238]
+                - paragraph [ref=e240]: Write the prompt directly in the desktop workbench.
+              - generic [ref=e241]:
+                - img [ref=e242]
+                - paragraph [ref=e244]: Switch aspect ratio, seed, and output format without leaving the page.
+              - generic [ref=e245]:
+                - img [ref=e246]
+                - paragraph [ref=e248]: Move between scene and model routes from the same header controls.
+              - generic [ref=e249]:
+                - img [ref=e250]
+                - paragraph [ref=e252]: Keep the result area and generation controls in one focused layout.
+        - generic [ref=e254]:
+          - generic [ref=e256]:
+            - heading "Core Features" [level=2] [ref=e257]
+            - paragraph [ref=e258]: A glance at the capabilities of the AI models deployed by happyhorses.io
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - img [ref=e265]
+                - heading "Photorealistic" [level=3] [ref=e268]
+              - generic [ref=e269]: Photography-level Realism
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - img [ref=e273]
+                - heading "Bilingual Text" [level=3] [ref=e277]
+              - generic [ref=e278]: Accurate Text Rendering
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - img [ref=e282]
+                - heading "World Knowledge" [level=3] [ref=e290]
+              - generic [ref=e291]: Deep Semantic Understanding
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - img [ref=e295]
+                - heading "Image Editing" [level=3] [ref=e298]
+              - generic [ref=e299]: Creative Single-image Edits
+        - generic [ref=e301]:
+          - generic [ref=e303]:
+            - heading "Capabilities Showcase" [level=2] [ref=e304]
+            - paragraph [ref=e305]: Discover the capabilities of the AI models deployed by happyhorses.io.
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - img [ref=e312]
+                - heading "Photorealistic Generation" [level=3] [ref=e315]
+              - generic [ref=e316]: Delivers strong photorealistic image generation while maintaining excellent aesthetic quality.
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - img [ref=e320]
+                - heading "Bilingual Text Rendering" [level=3] [ref=e324]
+              - generic [ref=e325]: Accurately renders complex Chinese and English text in various scenarios.
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - img [ref=e329]
+                - heading "World Knowledge" [level=3] [ref=e332]
+              - generic [ref=e333]: Possesses vast understanding of world knowledge and diverse cultural concepts.
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - img [ref=e337]
+                - heading "Semantic Understanding" [level=3] [ref=e345]
+              - generic [ref=e346]: Uses structured reasoning chain to inject logic and common sense.
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - img [ref=e350]
+                - heading "Creative Editing" [level=3] [ref=e353]
+              - generic [ref=e354]: Precisely executes complex instructions for image transformations.
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - img [ref=e358]
+                - heading "Instruction Following" [level=3] [ref=e361]
+              - generic [ref=e362]: Demonstrates fine-grained control over image elements and transformations.
+        - generic [ref=e365]:
+          - generic [ref=e367]:
+            - paragraph [ref=e368]: Workflow
+            - heading "Explore the model strengths" [level=2] [ref=e369]
+            - paragraph [ref=e370]: happyhorses.io deploys and optimizes open-source 6B-parameter diffusion transformer models like happyhorses.io released under the Apache-2.0 license. We provide an enhanced inference pipeline, safety system, and UI for easier usage.
+          - generic [ref=e371]:
+            - generic [ref=e373]:
+              - generic [ref=e374]:
+                - generic [ref=e375]: "01"
+                - heading "Photorealistic Quality" [level=3] [ref=e376]
+              - paragraph [ref=e377]: Photography-level realism with fine control over details, lighting, and textures. Achieves excellent aesthetic quality in composition and overall mood.
+            - generic [ref=e379]:
+              - generic [ref=e380]:
+                - generic [ref=e381]: "02"
+                - heading "Ultra-fast Inference" [level=3] [ref=e382]
+              - paragraph [ref=e383]: Achieves sub-second inference latency on enterprise-grade H800 GPUs. Only 8 steps needed for generation.
+            - generic [ref=e385]:
+              - generic [ref=e386]:
+                - generic [ref=e387]: "03"
+                - heading "Bilingual Text Rendering" [level=3] [ref=e388]
+              - paragraph [ref=e389]: Accurate rendering of both Chinese and English text while preserving facial realism and overall aesthetic composition.
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]: "04"
+                - heading "Efficient VRAM Usage" [level=3] [ref=e394]
+              - paragraph [ref=e395]: Can run smoothly on consumer-grade graphics cards with less than 16GB of VRAM, making advanced image generation accessible.
+        - generic [ref=e397]:
+          - generic [ref=e399]:
+            - heading "Frequently Asked Questions" [level=2] [ref=e400]
+            - paragraph [ref=e401]: Common questions about happyhorses.io and its capabilities.
+          - generic [ref=e403]:
+            - generic [ref=e404]:
+              - generic [ref=e405]:
+                - heading "How does happyhorses.io generate images?" [level=3] [ref=e407]:
+                  - button "How does happyhorses.io generate images?" [ref=e408] [cursor=pointer]:
+                    - text: How does happyhorses.io generate images?
+                    - img
+                - separator [ref=e409]
+              - generic [ref=e410]:
+                - heading "Is happyhorses.io an official product of Alibaba or any AI model provider?" [level=3] [ref=e412]:
+                  - button "Is happyhorses.io an official product of Alibaba or any AI model provider?" [ref=e413] [cursor=pointer]:
+                    - text: Is happyhorses.io an official product of Alibaba or any AI model provider?
+                    - img
+                - separator [ref=e414]
+              - generic [ref=e415]:
+                - heading "What happens after I enter a prompt?" [level=3] [ref=e417]:
+                  - button "What happens after I enter a prompt?" [ref=e418] [cursor=pointer]:
+                    - text: What happens after I enter a prompt?
+                    - img
+                - separator [ref=e419]
+              - generic [ref=e420]:
+                - heading "Does happyhorses.io allow NSFW or adult content generation?" [level=3] [ref=e422]:
+                  - button "Does happyhorses.io allow NSFW or adult content generation?" [ref=e423] [cursor=pointer]:
+                    - text: Does happyhorses.io allow NSFW or adult content generation?
+                    - img
+                - separator [ref=e424]
+              - generic [ref=e425]:
+                - heading "What technology does happyhorses.io use to generate results?" [level=3] [ref=e427]:
+                  - button "What technology does happyhorses.io use to generate results?" [ref=e428] [cursor=pointer]:
+                    - text: What technology does happyhorses.io use to generate results?
+                    - img
+                - separator [ref=e429]
+              - generic [ref=e430]:
+                - heading "What am I paying for when I purchase credits?" [level=3] [ref=e432]:
+                  - button "What am I paying for when I purchase credits?" [ref=e433] [cursor=pointer]:
+                    - text: What am I paying for when I purchase credits?
+                    - img
+                - separator [ref=e434]
+              - generic [ref=e435]:
+                - heading "Are my images or prompts used to train your models?" [level=3] [ref=e437]:
+                  - button "Are my images or prompts used to train your models?" [ref=e438] [cursor=pointer]:
+                    - text: Are my images or prompts used to train your models?
+                    - img
+                - separator [ref=e439]
+              - generic [ref=e440]:
+                - heading "Does happyhorses.io store any user data?" [level=3] [ref=e442]:
+                  - button "Does happyhorses.io store any user data?" [ref=e443] [cursor=pointer]:
+                    - text: Does happyhorses.io store any user data?
+                    - img
+                - separator [ref=e444]
+              - generic [ref=e445]:
+                - heading "Can I delete my generated images or account data?" [level=3] [ref=e447]:
+                  - button "Can I delete my generated images or account data?" [ref=e448] [cursor=pointer]:
+                    - text: Can I delete my generated images or account data?
+                    - img
+                - separator [ref=e449]
+              - generic [ref=e450]:
+                - heading "What happens if my prompt gets blocked by moderation?" [level=3] [ref=e452]:
+                  - button "What happens if my prompt gets blocked by moderation?" [ref=e453] [cursor=pointer]:
+                    - text: What happens if my prompt gets blocked by moderation?
+                    - img
+                - separator [ref=e454]
+              - generic [ref=e455]:
+                - heading "Does happyhorses.io support editing existing images?" [level=3] [ref=e457]:
+                  - button "Does happyhorses.io support editing existing images?" [ref=e458] [cursor=pointer]:
+                    - text: Does happyhorses.io support editing existing images?
+                    - img
+                - separator [ref=e459]
+              - generic [ref=e460]:
+                - heading "How does happyhorses.io protect user privacy?" [level=3] [ref=e462]:
+                  - button "How does happyhorses.io protect user privacy?" [ref=e463] [cursor=pointer]:
+                    - text: How does happyhorses.io protect user privacy?
+                    - img
+                - separator [ref=e464]
+              - heading "Is customer support available?" [level=3] [ref=e467]:
+                - button "Is customer support available?" [ref=e468] [cursor=pointer]:
+                  - text: Is customer support available?
+                  - img
+            - paragraph
+        - generic [ref=e471]:
+          - heading "Start Creating with happyhorses.io Turbo" [level=2] [ref=e473]
+          - paragraph [ref=e475]: Use the faster workbench to move from prompt to polished image without leaving the page.
+          - link "Open Workbench" [ref=e478] [cursor=pointer]:
+            - /url: "#playground"
+            - generic [ref=e479]: Open Workbench
+      - contentinfo [ref=e480]:
+        - generic [ref=e481]:
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - link "happyhorses.io" [ref=e484] [cursor=pointer]:
+                - /url: /
+                - img "happyhorses.io" [ref=e486]
+              - paragraph [ref=e487]: happyhorses.io - Fast & Free Image generator
+            - generic [ref=e488]:
+              - generic [ref=e489]:
+                - generic [ref=e490]: Project
+                - link "Features" [ref=e492] [cursor=pointer]:
+                  - /url: /#features
+              - generic [ref=e493]:
+                - generic [ref=e494]: Resources
+                - link "Documentation" [ref=e496] [cursor=pointer]:
+                  - /url: /docs
+          - generic [ref=e498]:
+            - link "English" [ref=e499] [cursor=pointer]:
+              - /url: /en/text-to-image/z-image-turbo
+            - link "English (India)" [ref=e500] [cursor=pointer]:
+              - /url: /en-IN/text-to-image/z-image-turbo
+            - link "中文" [ref=e501] [cursor=pointer]:
+              - /url: /zh/text-to-image/z-image-turbo
+            - link "繁體中文（台灣）" [ref=e502] [cursor=pointer]:
+              - /url: /zh-Hant-TW/text-to-image/z-image-turbo
+            - link "繁體中文（香港）" [ref=e503] [cursor=pointer]:
+              - /url: /zh-hk/text-to-image/z-image-turbo
+            - link "Deutsch" [ref=e504] [cursor=pointer]:
+              - /url: /de-DE/text-to-image/z-image-turbo
+            - link "한국어" [ref=e505] [cursor=pointer]:
+              - /url: /ko-KR/text-to-image/z-image-turbo
+            - link "日本語" [ref=e506] [cursor=pointer]:
+              - /url: /ja-JP/text-to-image/z-image-turbo
+            - link "Español" [ref=e507] [cursor=pointer]:
+              - /url: /es-ES/text-to-image/z-image-turbo
+            - link "Italiano" [ref=e508] [cursor=pointer]:
+              - /url: /it-IT/text-to-image/z-image-turbo
+            - link "Português (Brasil)" [ref=e509] [cursor=pointer]:
+              - /url: /pt-BR/text-to-image/z-image-turbo
+            - link "Русский" [ref=e510] [cursor=pointer]:
+              - /url: /ru-RU/text-to-image/z-image-turbo
+            - link "Türkçe" [ref=e511] [cursor=pointer]:
+              - /url: /tr-TR/text-to-image/z-image-turbo
+            - link "پښتو" [ref=e512] [cursor=pointer]:
+              - /url: /ps-AF/text-to-image/z-image-turbo
+          - generic [ref=e514]:
+            - generic [ref=e516]:
+              - text: © 2026
+              - link "happyhorses" [ref=e517] [cursor=pointer]:
+                - /url: /
+              - text: ", All rights reserved"
+            - generic [ref=e519]:
+              - link "support@happyhorses.io" [ref=e520] [cursor=pointer]:
+                - /url: mailto:support@happyhorses.io
+              - link "Privacy Policy" [ref=e521] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Terms of Service" [ref=e522] [cursor=pointer]:
+                - /url: /terms-of-service
+              - link "Content Moderation Policy" [ref=e523] [cursor=pointer]:
+                - /url: /content-moderation-policy
+              - link "Acceptable Use Policy" [ref=e524] [cursor=pointer]:
+                - /url: /acceptable-use-policy
+              - link "Refund Policy" [ref=e525] [cursor=pointer]:
+                - /url: /refund-policy
+              - link "AI Wrapper Disclaimer" [ref=e526] [cursor=pointer]:
+                - /url: /ai-wrapper-disclaimer
+              - link "Open-Source Attribution" [ref=e527] [cursor=pointer]:
+                - /url: /open-source-attribution
+  - alert [ref=e528]
+  - region "Notifications alt+T"

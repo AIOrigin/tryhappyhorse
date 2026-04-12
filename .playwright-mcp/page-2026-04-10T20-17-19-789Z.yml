@@ -1,0 +1,143 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]: /
+      - listitem [ref=e9]:
+        - generic [ref=e10]: Best AI Video Models
+  - region "Best AI Video Models" [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: Best AI Video Models, Where HappyHorse Fits in the Category
+      - heading "Best AI Video Models" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Use this page to scan the broader AI video model category, then move back into the most relevant HappyHorse route for comparison, alternatives, or hands-on action.
+    - generic "Page metadata" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Category Comparison
+        - generic [ref=e19]: Mixed
+        - generic [ref=e20]: Updated 2026-04-11
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - term [ref=e23]: Primary keyword
+          - definition [ref=e24]: best AI video models
+        - generic [ref=e25]:
+          - term [ref=e26]: CTA type
+          - definition [ref=e27]: See Alternatives
+        - generic [ref=e28]:
+          - term [ref=e29]: Generation mode
+          - definition [ref=e30]: None
+  - region "Some facts are supported, but other details remain uncertain" [ref=e31]:
+    - paragraph [ref=e32]: Mixed signal
+    - heading "Some facts are supported, but other details remain uncertain" [level=2] [ref=e33]
+    - paragraph [ref=e34]: Category-level tool discovery is supported by public listings, while detailed head-to-head claims still need careful sourcing.
+    - paragraph [ref=e35]: Readers should expect careful wording here because public reporting confirms the topic, while some product details still need cautious treatment.
+  - generic [ref=e36]:
+    - region "Fast facts from the content model" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Role in the campaign" [level=3] [ref=e44]
+            - generic [ref=e45]: Verified
+          - paragraph [ref=e46]: Support page for category-level discovery that should send visitors back into HappyHorse-specific routes instead of becoming the main campaign hub
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Primary visitor need" [level=3] [ref=e49]
+            - generic [ref=e50]: Verified
+          - paragraph [ref=e51]: Scan the wider AI video market, then choose whether to continue into comparison, alternatives, or the site action path
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Best-of claims" [level=3] [ref=e54]
+            - generic [ref=e55]: Mixed
+          - paragraph [ref=e56]: Category summaries can help shortlist tools, but detailed ranking claims should stay cautious because public feature and quality coverage varies by source
+        - article [ref=e57]:
+          - generic [ref=e58]:
+            - heading "HappyHorse funnel support" [level=3] [ref=e59]
+            - generic [ref=e60]: Verified
+          - paragraph [ref=e61]: The clearest onward paths from this page are /happyhorse-vs-seedance/, /happyhorse-alternatives/, and /try-happyhorse/
+    - region "Give visitors a forward path when certainty is limited" [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Practical next step
+        - heading "Give visitors a forward path when certainty is limited" [level=2] [ref=e65]
+      - paragraph [ref=e66]: Alternative-intent pages should stay focused on practical options first, then send visitors into the clearest usable next step instead of a generic directory loop.
+      - link "See the alternatives" [ref=e67] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+      - paragraph [ref=e68]: This CTA avoids dead ends when official access, source, or feature parity is still unclear, while keeping the alternatives page itself centered on redirection rather than category sprawl.
+  - region "Shared body content from the collection entry" [ref=e69]:
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - paragraph [ref=e74]:
+        - text: This page exists for people who start broad. They are not always searching for HappyHorse by name yet. Some want to understand the wider AI video category first, then decide which path is worth more time. That makes
+        - code [ref=e75]: /best-ai-video-models/
+        - text: useful, but only as a support page. It should widen discovery without turning into the main campaign hub.
+      - heading "What this page should do" [level=2] [ref=e76]
+      - paragraph [ref=e77]: The job here is to help visitors orient themselves quickly. A category page can explain how people usually compare AI video models, what kinds of tradeoffs matter, and when a broad scan is more useful than a narrow brand query. It should not pretend to be a definitive league table, and it should not compete with the stronger HappyHorse routes that already handle comparison and action intent more directly.
+      - heading "How HappyHorse fits inside the category" [level=2] [ref=e78]
+      - paragraph [ref=e79]:
+        - text: HappyHorse matters on this page because it is the campaign anchor, not because this route should revolve around it alone. Visitors who discover HappyHorse here should be able to move into a tighter path right away. If they need the main head-to-head framing, send them to
+        - link "HappyHorse vs Seedance" [ref=e80] [cursor=pointer]:
+          - /url: /happyhorse-vs-seedance/
+        - text: . If they want practical options while official certainty is still limited, send them to
+        - link "HappyHorse alternatives" [ref=e81] [cursor=pointer]:
+          - /url: /happyhorse-alternatives/
+        - text: . If they are ready for the site’s own next-step flow, point them to
+        - link "Try HappyHorse" [ref=e82] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - text: .
+      - heading "The useful category criteria" [level=2] [ref=e83]
+      - paragraph [ref=e84]: Broad AI video comparison usually starts with a few practical questions. How easy is it to get started? How much control does the workflow give you? How polished do the outputs look in public examples? How much certainty is there around access, pricing, or source material? Those are better category lenses than a shallow “best overall” claim, especially when public information changes fast.
+      - heading "Why this route should stay support-only" [level=2] [ref=e85]
+      - paragraph [ref=e86]: This route is not the right place to replace the main comparison story or the canonical action path. It should help users narrow the field, then hand them back to the clearest HappyHorse route for the next decision. In practice, that means the page should visibly link into the comparison route, the alternatives route, and the in-site action route instead of trapping people in a generic category loop.
+      - heading "Non-official reminder" [level=2] [ref=e87]
+      - paragraph [ref=e88]: This website is an independent informational and comparison resource. It is not the official HappyHorse website or service. Category summaries here should stay clearly independent, cautious about unverified claims, and focused on helping visitors choose the next useful route.
+  - region "Questions this page should answer directly" [ref=e89]:
+    - generic [ref=e90]:
+      - paragraph [ref=e91]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e92]
+    - generic [ref=e93]:
+      - article [ref=e94]:
+        - heading "Why include a category page in the MVP?" [level=3] [ref=e95]
+        - paragraph [ref=e96]: It catches broader AI video discovery intent, but it should still work as a support page that feeds visitors into stronger HappyHorse routes.
+      - article [ref=e97]:
+        - heading "Should this page replace the canonical HappyHorse comparison route?" [level=3] [ref=e98]
+        - paragraph [ref=e99]: No. The focused comparison route stays at /happyhorse-vs-seedance/, which remains the right place for the primary head-to-head argument.
+      - article [ref=e100]:
+        - heading "Where should visitors go after scanning the category?" [level=3] [ref=e101]
+        - paragraph [ref=e102]: Use /happyhorse-vs-seedance/ for the core comparison, /happyhorse-alternatives/ when you want practical options, or /try-happyhorse/ when you want the site's own next-step path.
+      - article [ref=e103]:
+        - heading "Is this an official ranking from HappyHorse?" [level=3] [ref=e104]
+        - paragraph [ref=e105]: No. This page is an independent category guide and should not imply official endorsement or partnership.
+  - region "Keep visitors moving through the intent cluster" [ref=e106]:
+    - generic [ref=e107]:
+      - paragraph [ref=e108]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - link "HappyHorse Alternatives Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes." [ref=e111] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+        - generic [ref=e112]: HappyHorse Alternatives
+        - generic [ref=e113]: Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes.
+      - link "HappyHorse vs Seedance Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate." [ref=e114] [cursor=pointer]:
+        - /url: /happyhorse-vs-seedance/
+        - generic [ref=e115]: HappyHorse vs Seedance
+        - generic [ref=e116]: Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate.
+      - link "Try HappyHorse Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works." [ref=e117] [cursor=pointer]:
+        - /url: /try-happyhorse/
+        - generic [ref=e118]: Try HappyHorse
+        - generic [ref=e119]: Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works.
+  - complementary "Independent, non-official positioning" [ref=e120]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e123]
+    - paragraph [ref=e124]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - generic "Site footer" [ref=e125]:
+    - generic [ref=e126]:
+      - paragraph [ref=e127]: Site baseline
+      - paragraph [ref=e128]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e129]:
+      - link "Privacy & compliance" [ref=e130] [cursor=pointer]:
+        - /url: /privacy-compliance/

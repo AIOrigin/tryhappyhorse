@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: Route discovery
+        - generic [ref=e7]: Jump across the main HappyHorse routes
+      - navigation "Route discovery" [ref=e8]:
+        - link "Home":
+          - /url: /
+        - link "What Is HappyHorse?" [ref=e9] [cursor=pointer]:
+          - /url: /what-is-happyhorse/
+        - link "HappyHorse vs Seedance" [ref=e10] [cursor=pointer]:
+          - /url: /happyhorse-vs-seedance/
+        - link "Try HappyHorse" [ref=e11] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - link "HappyHorse Alternatives" [ref=e12] [cursor=pointer]:
+          - /url: /happyhorse-alternatives/
+        - link "HappyHorse-Style Prompt Templates" [ref=e13] [cursor=pointer]:
+          - /url: /happyhorse-prompts/
+        - link "HappyHorse GitHub Status" [ref=e14] [cursor=pointer]:
+          - /url: /happyhorse-github/
+        - link "Is HappyHorse Open Source?" [ref=e15] [cursor=pointer]:
+          - /url: /happyhorse-open-source/
+        - link "Best AI Video Models" [ref=e16] [cursor=pointer]:
+          - /url: /best-ai-video-models/
+      - generic [ref=e17]:
+        - link "Create your anime short →" [ref=e18] [cursor=pointer]:
+          - /url: https://www.elser.ai/anime
+        - link "Then explore What Is HappyHorse?" [ref=e19] [cursor=pointer]:
+          - /url: /what-is-happyhorse/
+    - navigation "Breadcrumb" [ref=e20]:
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - generic [ref=e23]: Home
+    - region "HappyHorse AI Video Guide" [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: HappyHorse AI Video Guide and Access Hub
+          - heading "HappyHorse AI Video Guide" [level=1] [ref=e28]
+          - paragraph [ref=e29]: HappyHorse is the AI video model people are trying to decode right now, and this independent homepage gives you the quick answer plus one clear path into a practical Elser.ai workflow.
+          - link "Create your anime short →" [ref=e31] [cursor=pointer]:
+            - /url: https://www.elser.ai/anime
+        - figure [ref=e32]:
+          - img "HappyHorse AI video guide homepage preview with an independent access path and comparison route" [ref=e33]
+    - region "Some facts are supported, but other details remain uncertain" [ref=e35]:
+      - paragraph [ref=e36]: Mixed signal
+      - heading "Some facts are supported, but other details remain uncertain" [level=2] [ref=e37]
+      - paragraph [ref=e38]: Public information confirms breakout attention around the topic, but product access details remain mixed and should be framed carefully.
+      - paragraph [ref=e39]: Readers should expect careful wording here because public reporting confirms the topic, while some product details still need cautious treatment.
+    - region "What matters before you click out" [ref=e40]:
+      - generic [ref=e41]:
+        - paragraph [ref=e42]: Key facts
+        - heading "What matters before you click out" [level=2] [ref=e43]
+      - generic [ref=e44]:
+        - article [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Site positioning" [level=3] [ref=e47]
+            - generic [ref=e48]: Verified
+          - paragraph [ref=e49]: Independent hub for HappyHorse explainer, comparison, prompts, and intent-based Elser handoffs
+        - article [ref=e50]:
+          - generic [ref=e51]:
+            - heading "Official status" [level=3] [ref=e52]
+            - generic [ref=e53]: Verified
+          - paragraph [ref=e54]: This site is not the official HappyHorse website or service
+        - article [ref=e55]:
+          - generic [ref=e56]:
+            - heading "Public access clarity" [level=3] [ref=e57]
+            - generic [ref=e58]: Mixed
+          - paragraph [ref=e59]: Public information about direct official access remains mixed, so action intent is routed to Elser.ai instead of an implied official portal or an internal loop
+    - region "What to know before the next step" [ref=e60]:
+      - generic [ref=e61]:
+        - paragraph [ref=e62]: Context
+        - heading "What to know before the next step" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: HappyHorse is getting searched as a new AI video model, but the cleanest public signal right now is attention rather than full product certainty. This homepage is the fast independent overview before you choose a deeper route or act on the primary workflow.
+        - heading "Why HappyHorse is drawing attention" [level=2] [ref=e66]
+        - list [ref=e67]:
+          - listitem [ref=e68]: Searchers are not only looking for the name. They are also asking whether this AI video model supports text-to-video, image-to-video, audio, API/access, and open-source-style discovery.
+          - listitem [ref=e69]: Some of the curiosity is about the product itself, and some of it is about the surrounding mystery-model or pseudonymous-story angle.
+          - listitem [ref=e70]: Comparison intent is rising too, especially when people want a practical reference point such as Seedance or “Seedance 2.0.”
+          - listitem [ref=e71]: Benchmark-style interest exists as well, including searches that look for third-party evaluators such as Artificial Analysis, even when public documentation still lags.
+        - heading "What this homepage is meant to do" [level=2] [ref=e72]
+        - paragraph [ref=e73]: "This page keeps the first decision simple: understand the trend quickly, see the current fact-status, and use the primary CTA if you already want a public-facing workflow."
+        - paragraph [ref=e74]: Use the shared route header and the related links block for deeper route discovery when your question is specifically about comparisons, prompts, access status, GitHub intent, or broader AI video alternatives.
+        - heading "What still remains unclear" [level=2] [ref=e75]
+        - list [ref=e76]:
+          - listitem [ref=e77]: Public reporting confirms the breakout attention, but direct official product access still remains mixed.
+          - listitem [ref=e78]: This site does not claim to be the official HappyHorse website, signup flow, or API surface.
+          - listitem [ref=e79]: The outbound CTA is a practical Elser.ai handoff, not proof of official HappyHorse affiliation or parity.
+    - region "Questions this page should answer directly" [ref=e80]:
+      - generic [ref=e81]:
+        - paragraph [ref=e82]: FAQ
+        - heading "Questions this page should answer directly" [level=2] [ref=e83]
+      - generic [ref=e84]:
+        - article [ref=e85]:
+          - heading "What should the homepage help visitors do first?" [level=3] [ref=e86]
+          - paragraph [ref=e87]: It should explain the trend in one sentence and route visitors quickly to the primary Elser handoff, plus the internal explainer, comparison, prompts, and alternatives pages, without acting like an official product home.
+        - article [ref=e88]:
+          - heading "Does this page claim to be the official HappyHorse website?" [level=3] [ref=e89]
+          - paragraph [ref=e90]: No. It must keep the non-official disclaimer visible and avoid unsupported official claims.
+    - region "Explore the rest of the cluster" [ref=e91]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: Related links
+        - heading "Explore the rest of the cluster" [level=2] [ref=e94]
+      - generic [ref=e95]:
+        - link "What Is HappyHorse? A concise explainer for people searching what HappyHorse is, why the AI video model is trending, and which details still need cautious framing. ↗" [ref=e96] [cursor=pointer]:
+          - /url: /what-is-happyhorse/
+          - generic [ref=e97]: What Is HappyHorse?
+          - generic [ref=e98]: A concise explainer for people searching what HappyHorse is, why the AI video model is trending, and which details still need cautious framing.
+          - text: ↗
+        - link "HappyHorse vs Seedance Canonical HappyHorse vs Seedance comparison for people looking for the current AI video model read without inflated benchmark claims. ↗" [ref=e99] [cursor=pointer]:
+          - /url: /happyhorse-vs-seedance/
+          - generic [ref=e100]: HappyHorse vs Seedance
+          - generic [ref=e101]: Canonical HappyHorse vs Seedance comparison for people looking for the current AI video model read without inflated benchmark claims.
+          - text: ↗
+        - link "Try HappyHorse Canonical try HappyHorse page for access intent, cautious non-official framing, and the best-fit Elser.ai handoff when visitors want a practical next step. ↗" [ref=e102] [cursor=pointer]:
+          - /url: /try-happyhorse/
+          - generic [ref=e103]: Try HappyHorse
+          - generic [ref=e104]: Canonical try HappyHorse page for access intent, cautious non-official framing, and the best-fit Elser.ai handoff when visitors want a practical next step.
+          - text: ↗
+        - link "HappyHorse Alternatives Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes. ↗" [ref=e105] [cursor=pointer]:
+          - /url: /happyhorse-alternatives/
+          - generic [ref=e106]: HappyHorse Alternatives
+          - generic [ref=e107]: Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes.
+          - text: ↗
+        - link "HappyHorse-Style Prompt Templates Creator-first prompt packet with reusable HappyHorse-style examples, non-official framing, and a clear path into an Elser.ai prompt workflow. ↗" [ref=e108] [cursor=pointer]:
+          - /url: /happyhorse-prompts/
+          - generic [ref=e109]: HappyHorse-Style Prompt Templates
+          - generic [ref=e110]: Creator-first prompt packet with reusable HappyHorse-style examples, non-official framing, and a clear path into an Elser.ai prompt workflow.
+          - text: ↗
+        - link "HappyHorse GitHub Status Repo-status packet for GitHub-intent searches that explains what public repository evidence is verified, what remains unknown, and where visitors should go instead of assuming official repo access. ↗" [ref=e111] [cursor=pointer]:
+          - /url: /happyhorse-github/
+          - generic [ref=e112]: HappyHorse GitHub Status
+          - generic [ref=e113]: Repo-status packet for GitHub-intent searches that explains what public repository evidence is verified, what remains unknown, and where visitors should go instead of assuming official repo access.
+          - text: ↗
+        - link "Is HappyHorse Open Source? Open-source status packet that answers the public code, weights, and license question directly, then routes visitors to practical alternatives when public availability is not verified. ↗" [ref=e114] [cursor=pointer]:
+          - /url: /happyhorse-open-source/
+          - generic [ref=e115]: Is HappyHorse Open Source?
+          - generic [ref=e116]: Open-source status packet that answers the public code, weights, and license question directly, then routes visitors to practical alternatives when public availability is not verified.
+          - text: ↗
+        - link "Best AI Video Models Category support page for broader AI video model discovery that keeps HappyHorse visible, adds practical comparison context, and routes visitors back into the campaign funnel. ↗" [ref=e117] [cursor=pointer]:
+          - /url: /best-ai-video-models/
+          - generic [ref=e118]: Best AI Video Models
+          - generic [ref=e119]: Category support page for broader AI video model discovery that keeps HappyHorse visible, adds practical comparison context, and routes visitors back into the campaign funnel.
+          - text: ↗
+    - complementary "Independent, non-official positioning" [ref=e120]:
+      - generic [ref=e121]:
+        - paragraph [ref=e122]: Disclaimer
+        - heading "Independent, non-official positioning" [level=2] [ref=e123]
+      - paragraph [ref=e124]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+    - generic "Site footer" [ref=e125]:
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: Site baseline
+        - paragraph [ref=e128]: This site is an independent HappyHorse guide and handoff experience. Review the privacy and compliance baseline for outbound tool handoffs, click telemetry, and expectation setting.
+      - navigation "Footer links" [ref=e129]:
+        - link "Privacy & compliance" [ref=e130] [cursor=pointer]:
+          - /url: /privacy-compliance/
+  - alert [ref=e131]

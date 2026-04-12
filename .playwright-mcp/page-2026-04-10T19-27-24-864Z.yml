@@ -1,0 +1,157 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]: /
+      - listitem [ref=e9]:
+        - generic [ref=e10]: Try HappyHorse
+  - region "Try HappyHorse" [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: Try HappyHorse, Access Guide and In-Site Generation Entry
+      - heading "Try HappyHorse" [level=1] [ref=e14]
+      - paragraph [ref=e15]: This page is the canonical app and access entry, and it should direct visitors into the site’s own generation flow while explaining that verified public official access information may still be limited.
+    - generic "Page metadata" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Access
+        - generic [ref=e19]: Unknown
+        - generic [ref=e20]: Updated 2026-04-11
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - term [ref=e23]: Primary keyword
+          - definition [ref=e24]: try HappyHorse
+        - generic [ref=e25]:
+          - term [ref=e26]: CTA type
+          - definition [ref=e27]: Try Now
+        - generic [ref=e28]:
+          - term [ref=e29]: Generation mode
+          - definition [ref=e30]: Direct
+  - region "Important official-status details are still unverified" [ref=e31]:
+    - paragraph [ref=e32]: Unknown signal
+    - heading "Important official-status details are still unverified" [level=2] [ref=e33]
+    - paragraph [ref=e34]: As of the latest update, we have not found public evidence that there is a verified public official access page, so the page should route users through the in-site generator instead.
+    - paragraph [ref=e35]: This page deliberately avoids pretending there is confirmed official access, source availability, or repository evidence when that proof is missing.
+  - generic [ref=e36]:
+    - region "Fast facts from the content model" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Canonical app entry" [level=3] [ref=e44]
+            - generic [ref=e45]: Verified
+          - paragraph [ref=e46]: This is the only MVP page that should act as the direct generation entry
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Free usage rule" [level=3] [ref=e49]
+            - generic [ref=e50]: Verified
+          - paragraph [ref=e51]: Each user can generate up to 2 free videos in the MVP
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Official public access page" [level=3] [ref=e54]
+            - generic [ref=e55]: Unknown
+          - paragraph [ref=e56]: There is no verified public access page at the time of writing
+    - region "Generate a HappyHorse-style video brief" [ref=e57]:
+      - generic [ref=e58]:
+        - paragraph [ref=e59]: Canonical app entry
+        - heading "Generate a HappyHorse-style video brief" [level=2] [ref=e60]
+      - paragraph [ref=e61]:
+        - text: Use the in-site generator here on
+        - code [ref=e62]: /try-happyhorse/
+        - text: . This MVP keeps the flow non-official, direct from the frontend, and limited to 2 successful free generations per browser.
+      - generic "Generator facts" [ref=e63]:
+        - generic [ref=e64]: "Visible states: ready, submitting, success, failure, limit reached"
+        - generic [ref=e65]:
+          - text: "Free generations left:"
+          - strong [ref=e66]: "0"
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: Describe the video you want
+          - textbox "Describe the video you want" [ref=e70]:
+            - /placeholder: "Example: A cinematic horse galloping through neon rain, dramatic lighting, slow-motion water spray, 9:16 social clip."
+        - generic [ref=e71]:
+          - generic [ref=e72]: Preview response mode
+          - combobox "Preview response mode" [ref=e73]:
+            - option "Success" [selected]
+            - option "Failure"
+        - generic [ref=e74]:
+          - button "Free limit reached" [disabled] [ref=e75]
+          - paragraph [ref=e76]: No public-safe endpoint is configured in this repo, so local preview uses an honest mock path for success and failure. Set PUBLIC_HAPPYHORSE_GENERATOR_ENDPOINT to test a real frontend-direct request.
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Ready" [level=3] [ref=e79]
+          - paragraph [ref=e80]: The form is ready for a new attempt. Successful generations on this browser count toward the 2-free limit.
+        - generic [ref=e81]:
+          - heading "Submitting" [level=3] [ref=e82]
+          - paragraph [ref=e83]: Your latest request is in flight. The submit button is disabled until this attempt finishes so the counter cannot double-count.
+        - generic [ref=e84]:
+          - heading "Success" [level=3] [ref=e85]
+          - paragraph [ref=e86]: A usable generation response is ready.
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - term [ref=e89]: Request reference
+              - definition
+            - generic [ref=e90]:
+              - term [ref=e91]: Result URL
+              - definition:
+                - link:
+                  - /url: "#"
+            - generic [ref=e92]:
+              - term [ref=e93]: Result summary
+              - definition
+        - generic [ref=e94]:
+          - heading "Failure" [level=3] [ref=e95]
+          - paragraph [ref=e96]: The request failed. Review the response details and try again when ready.
+        - generic [ref=e97]:
+          - heading "Limit reached" [level=3] [ref=e98]
+          - paragraph [ref=e99]: This browser has already used both free generations. The UI blocks additional free attempts until storage is cleared.
+  - region "Shared body content from the collection entry" [ref=e100]:
+    - generic [ref=e101]:
+      - paragraph [ref=e102]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e103]
+    - paragraph [ref=e105]:
+      - text: This access packet is the key data source for the future generator page. It marks
+      - code [ref=e106]: /try-happyhorse/
+      - text: as the canonical app route and keeps the uncertainty language explicit.
+  - region "Questions this page should answer directly" [ref=e107]:
+    - generic [ref=e108]:
+      - paragraph [ref=e109]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e110]
+    - generic [ref=e111]:
+      - article [ref=e112]:
+        - heading "Is this the official HappyHorse product page?" [level=3] [ref=e113]
+        - paragraph [ref=e114]: No. This page provides an in-site generation experience and does not represent the official HappyHorse service.
+      - article [ref=e115]:
+        - heading "What should this page say about API or official access?" [level=3] [ref=e116]
+        - paragraph [ref=e117]: It should explain that this site currently routes generation through an existing API that the product owner says can be called directly from the frontend.
+  - region "Keep visitors moving through the intent cluster" [ref=e118]:
+    - generic [ref=e119]:
+      - paragraph [ref=e120]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e121]
+    - generic [ref=e122]:
+      - link "HappyHorse AI Video Guide Independent HappyHorse explainer hub with guidance, comparisons, prompts, and the canonical route into the in-site generation experience." [ref=e123] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e124]: HappyHorse AI Video Guide
+        - generic [ref=e125]: Independent HappyHorse explainer hub with guidance, comparisons, prompts, and the canonical route into the in-site generation experience.
+      - link "What Is HappyHorse? A source-aware explainer page for people searching what HappyHorse is, why it is trending, and where to go next." [ref=e126] [cursor=pointer]:
+        - /url: /what-is-happyhorse/
+        - generic [ref=e127]: What Is HappyHorse?
+        - generic [ref=e128]: A source-aware explainer page for people searching what HappyHorse is, why it is trending, and where to go next.
+      - link "HappyHorse Prompt Templates Prompt-library packet for creator-intent queries that can feed visitors into the in-site generation workflow." [ref=e129] [cursor=pointer]:
+        - /url: /happyhorse-prompts/
+        - generic [ref=e130]: HappyHorse Prompt Templates
+        - generic [ref=e131]: Prompt-library packet for creator-intent queries that can feed visitors into the in-site generation workflow.
+  - complementary "Independent, non-official positioning" [ref=e132]:
+    - generic [ref=e133]:
+      - paragraph [ref=e134]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e135]
+    - paragraph [ref=e136]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - generic "Site footer" [ref=e137]:
+    - generic [ref=e138]:
+      - paragraph [ref=e139]: Site baseline
+      - paragraph [ref=e140]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e141]:
+      - link "Privacy & compliance" [ref=e142] [cursor=pointer]:
+        - /url: /privacy-compliance/

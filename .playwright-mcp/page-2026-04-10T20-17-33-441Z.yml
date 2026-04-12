@@ -1,0 +1,143 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]: /
+      - listitem [ref=e9]:
+        - generic [ref=e10]: HappyHorse Alternatives
+  - region "HappyHorse Alternatives" [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: HappyHorse Alternatives, Where to Go When Access Is Still Unclear
+      - heading "HappyHorse Alternatives" [level=1] [ref=e14]
+      - paragraph [ref=e15]: If you want a practical next step now, use this page to reset expectations around unclear official access, scan the strongest alternative paths, and then move into either the canonical comparison or the site’s own access route.
+    - generic "Page metadata" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Alternatives
+        - generic [ref=e19]: Mixed
+        - generic [ref=e20]: Updated 2026-04-11
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - term [ref=e23]: Primary keyword
+          - definition [ref=e24]: HappyHorse alternatives
+        - generic [ref=e25]:
+          - term [ref=e26]: CTA type
+          - definition [ref=e27]: See Alternatives
+        - generic [ref=e28]:
+          - term [ref=e29]: Generation mode
+          - definition [ref=e30]: None
+  - region "Some facts are supported, but other details remain uncertain" [ref=e31]:
+    - paragraph [ref=e32]: Mixed signal
+    - heading "Some facts are supported, but other details remain uncertain" [level=2] [ref=e33]
+    - paragraph [ref=e34]: Alternative-tool coverage is grounded in public discovery sources, while exact parity with HappyHorse should be treated cautiously.
+    - paragraph [ref=e35]: Readers should expect careful wording here because public reporting confirms the topic, while some product details still need cautious treatment.
+  - generic [ref=e36]:
+    - region "Fast facts from the content model" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Primary use" [level=3] [ref=e44]
+            - generic [ref=e45]: Verified
+          - paragraph [ref=e46]: Redirect high-intent visitors toward workable AI video options without pretending that official HappyHorse access is settled
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Competitor framing" [level=3] [ref=e49]
+            - generic [ref=e50]: Verified
+          - paragraph [ref=e51]: Seedance remains the anchor comparison name, but this page stays broader than the single head-to-head route
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Onward journeys" [level=3] [ref=e54]
+            - generic [ref=e55]: Verified
+          - paragraph [ref=e56]: Visitors should be able to move visibly from alternatives into /happyhorse-vs-seedance/ for the canonical comparison or /try-happyhorse/ for the site’s own action path
+        - article [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Exact output equivalence" [level=3] [ref=e59]
+            - generic [ref=e60]: Mixed
+          - paragraph [ref=e61]: Public information is mixed on one-to-one output equivalence across tools
+    - region "Give visitors a forward path when certainty is limited" [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Practical next step
+        - heading "Give visitors a forward path when certainty is limited" [level=2] [ref=e65]
+      - paragraph [ref=e66]: Alternative-intent pages should stay focused on practical options first, then send visitors into the clearest usable next step instead of a generic directory loop.
+      - link "See the alternatives in action" [ref=e67] [cursor=pointer]:
+        - /url: /try-happyhorse/
+      - paragraph [ref=e68]: This CTA avoids dead ends when official access, source, or feature parity is still unclear, while keeping the alternatives page itself centered on redirection rather than category sprawl.
+  - region "Shared body content from the collection entry" [ref=e69]:
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - paragraph [ref=e74]: This page is the alternatives and redirection route for visitors who do not want to wait around for perfect clarity on official HappyHorse access. It should help people keep moving without turning into a generic tool directory or a clone of the Seedance comparison page.
+      - heading "What this page is for" [level=2] [ref=e75]
+      - paragraph [ref=e76]: The job here is simple. Reset expectations, make the uncertainty clear, and surface the strongest next-step options. That means naming realistic paths forward without acting as if any tool is the official HappyHorse replacement.
+      - heading "How to read the alternatives" [level=2] [ref=e77]
+      - paragraph [ref=e78]:
+        - text: Start with the broadest practical lens. Some visitors want a comparable workflow they can use right away. Others still need a tighter evaluation before they act. This page should support both, but it should stay alternatives-first instead of replaying the full comparison argument from
+        - link "HappyHorse vs Seedance" [ref=e79] [cursor=pointer]:
+          - /url: /happyhorse-vs-seedance/
+        - text: .
+      - heading "The three useful paths from here" [level=2] [ref=e80]
+      - paragraph [ref=e81]:
+        - text: First, use Seedance as the canonical comparison anchor when you need the closest head-to-head context. That is why this page should link clearly back to
+        - link "HappyHorse vs Seedance" [ref=e82] [cursor=pointer]:
+          - /url: /happyhorse-vs-seedance/
+        - text: instead of rewriting the whole comparison here.
+      - paragraph [ref=e83]:
+        - text: Second, use the broader category view only when you want to scan a wider market.
+        - link "Best AI Video Models" [ref=e84] [cursor=pointer]:
+          - /url: /best-ai-video-models/
+        - text: is the right route for that broader sweep, but it is not the main purpose of this page.
+      - paragraph [ref=e85]:
+        - text: Third, if you want the site’s own practical action path after reviewing options, continue to
+        - link "Try HappyHorse" [ref=e86] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - text: . That route is the canonical in-site access journey, even though this page should remain focused on alternatives first.
+      - heading "Non-official reminder" [level=2] [ref=e87]
+      - paragraph [ref=e88]: This website is an independent informational and comparison resource. It can point you toward comparable workflows and practical next steps, but it should not imply official endorsement, official partnership, or verified one-to-one tool equivalence.
+  - region "Questions this page should answer directly" [ref=e89]:
+    - generic [ref=e90]:
+      - paragraph [ref=e91]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e92]
+    - generic [ref=e93]:
+      - article [ref=e94]:
+        - heading "Why does this page matter if HappyHorse access is unclear?" [level=3] [ref=e95]
+        - paragraph [ref=e96]: It gives visitors an immediate path forward instead of leaving them at a dead end.
+      - article [ref=e97]:
+        - heading "Should alternatives be presented as official HappyHorse substitutes?" [level=3] [ref=e98]
+        - paragraph [ref=e99]: No. They should be framed as comparable workflows or related options, not official replacements.
+      - article [ref=e100]:
+        - heading "Where should a visitor go after reviewing alternatives?" [level=3] [ref=e101]
+        - paragraph [ref=e102]: Use /happyhorse-vs-seedance/ for the canonical comparison if you still need head-to-head context, or continue to /try-happyhorse/ if you want the site’s own practical action path.
+  - region "Keep visitors moving through the intent cluster" [ref=e103]:
+    - generic [ref=e104]:
+      - paragraph [ref=e105]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e106]
+    - generic [ref=e107]:
+      - link "HappyHorse vs Seedance Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate." [ref=e108] [cursor=pointer]:
+        - /url: /happyhorse-vs-seedance/
+        - generic [ref=e109]: HappyHorse vs Seedance
+        - generic [ref=e110]: Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate.
+      - link "Best AI Video Models Category support page for broader AI video model discovery that keeps HappyHorse visible, adds practical comparison context, and routes visitors back into the campaign funnel." [ref=e111] [cursor=pointer]:
+        - /url: /best-ai-video-models/
+        - generic [ref=e112]: Best AI Video Models
+        - generic [ref=e113]: Category support page for broader AI video model discovery that keeps HappyHorse visible, adds practical comparison context, and routes visitors back into the campaign funnel.
+      - link "Try HappyHorse Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works." [ref=e114] [cursor=pointer]:
+        - /url: /try-happyhorse/
+        - generic [ref=e115]: Try HappyHorse
+        - generic [ref=e116]: Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works.
+  - complementary "Independent, non-official positioning" [ref=e117]:
+    - generic [ref=e118]:
+      - paragraph [ref=e119]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e120]
+    - paragraph [ref=e121]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - generic "Site footer" [ref=e122]:
+    - generic [ref=e123]:
+      - paragraph [ref=e124]: Site baseline
+      - paragraph [ref=e125]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e126]:
+      - link "Privacy & compliance" [ref=e127] [cursor=pointer]:
+        - /url: /privacy-compliance/

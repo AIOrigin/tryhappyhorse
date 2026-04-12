@@ -1,0 +1,188 @@
+{
+  "active_plan": "/Users/shaozhupeng/workspace/auto-seo/.sisyphus/plans/auto-seo-happyhorse-execution.md",
+  "started_at": "2026-04-10T16:15:33.557Z",
+  "session_ids": [
+    "ses_287f576b1ffeoMieQrfrXzB8B4",
+    "ses_287d11833ffe7L8Fwigf3ZIq7U",
+    "ses_287d11811ffen6CIVXd5G6okhk",
+    "ses_287aca3ebffe1y8dFk9xowcKf3",
+    "ses_287aca374ffeUn2XIAJmPhQ3lB",
+    "ses_287aca371ffe2O0hWmHwf7Gcw4",
+    "ses_287aca36dffe5S7R3dQuxl9kLg"
+  ],
+  "session_origins": {
+    "ses_287f576b1ffeoMieQrfrXzB8B4": "direct",
+    "ses_287d11833ffe7L8Fwigf3ZIq7U": "appended",
+    "ses_287d11811ffen6CIVXd5G6okhk": "appended",
+    "ses_287aca3ebffe1y8dFk9xowcKf3": "appended",
+    "ses_287aca374ffeUn2XIAJmPhQ3lB": "appended",
+    "ses_287aca371ffe2O0hWmHwf7Gcw4": "appended",
+    "ses_287aca36dffe5S7R3dQuxl9kLg": "appended"
+  },
+  "plan_name": "auto-seo-happyhorse-execution",
+  "agent": "atlas",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "Bootstrap Astro static-first project and app-ready baseline scripts",
+      "session_id": "ses_2879bd871ffeeVODfzNZlFfwfk",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-high",
+      "updated_at": "2026-04-10T17:37:46.230Z"
+    },
+    "todo:2": {
+      "task_key": "todo:2",
+      "task_label": "2",
+      "task_title": "Define typed content collections and per-page research packets",
+      "session_id": "ses_2878056e2ffe1Z70l09dI3Z5Pn",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T17:51:04.775Z"
+    },
+    "todo:3": {
+      "task_key": "todo:3",
+      "task_label": "3",
+      "task_title": "Build the shared page shell and reusable SEO/content components",
+      "session_id": "ses_28779c21cffeHOl28sxh775D3p",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-04-10T18:09:22.136Z"
+    },
+    "todo:4": {
+      "task_key": "todo:4",
+      "task_label": "4",
+      "task_title": "Implement the frontend generation flow and GA4 event taxonomy",
+      "session_id": "ses_2874ab6adffeTkeQxphGi7Lnnh",
+      "agent": "librarian",
+      "category": "",
+      "updated_at": "2026-04-10T18:44:16.460Z"
+    },
+    "todo:5": {
+      "task_key": "todo:5",
+      "task_label": "5",
+      "task_title": "Add SEO utility routes and legal/compliance baseline",
+      "session_id": "ses_2872ffe82ffepYA5K5XdMMPE9I",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T19:17:14.843Z"
+    },
+    "todo:6": {
+      "task_key": "todo:6",
+      "task_label": "6",
+      "task_title": "Implement the homepage hub route `/`",
+      "session_id": "ses_28723d29cffeMAXRYZvMOXh6Ub",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-high",
+      "updated_at": "2026-04-10T19:29:19.501Z"
+    },
+    "todo:7": {
+      "task_key": "todo:7",
+      "task_label": "7",
+      "task_title": "Implement the explainer route `/what-is-happyhorse/`",
+      "session_id": "ses_287204e76ffefaB529IN6H1EIL",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T19:35:49.353Z"
+    },
+    "todo:8": {
+      "task_key": "todo:8",
+      "task_label": "8",
+      "task_title": "Implement the comparison route `/happyhorse-vs-seedance/`",
+      "session_id": "ses_2871a6c10ffev22uUNFX7JbY4T",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T19:41:04.815Z"
+    },
+    "todo:9": {
+      "task_key": "todo:9",
+      "task_label": "9",
+      "task_title": "Implement the app/access route `/try-happyhorse/`",
+      "session_id": "ses_287153772ffeDo7d6yKfIFSDHJ",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-high",
+      "updated_at": "2026-04-10T19:46:48.939Z"
+    },
+    "todo:10": {
+      "task_key": "todo:10",
+      "task_label": "10",
+      "task_title": "Implement the alternatives route `/happyhorse-alternatives/`",
+      "session_id": "ses_2870feb70ffeRFazSkMVHi41t4",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T19:52:26.060Z"
+    },
+    "todo:11": {
+      "task_key": "todo:11",
+      "task_label": "11",
+      "task_title": "Implement the prompts route `/happyhorse-prompts/`",
+      "session_id": "ses_2870b1cafffe2MBFHCsz9KTNY6",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T20:01:54.692Z"
+    },
+    "todo:12": {
+      "task_key": "todo:12",
+      "task_label": "12",
+      "task_title": "Implement the supporting repo-status route `/happyhorse-github/`",
+      "session_id": "ses_2870281c5ffeDaEeQDTckS75ma",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T20:07:21.106Z"
+    },
+    "todo:13": {
+      "task_key": "todo:13",
+      "task_label": "13",
+      "task_title": "Implement the supporting open-source route `/happyhorse-open-source/`",
+      "session_id": "ses_286fd6826ffexI71LwmQk7ZwIc",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T20:12:48.360Z"
+    },
+    "todo:14": {
+      "task_key": "todo:14",
+      "task_label": "14",
+      "task_title": "Implement the category comparison route `/best-ai-video-models/`",
+      "session_id": "ses_286f85af9ffeT4Xkas6LUY3xxl",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T20:18:14.392Z"
+    },
+    "todo:15": {
+      "task_key": "todo:15",
+      "task_label": "15",
+      "task_title": "Enforce cross-page internal linking, canonicals, breadcrumbs, and sitemap integrity",
+      "session_id": "ses_286f36188ffe4UboA2H5OlZZme",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-high",
+      "updated_at": "2026-04-10T20:24:55.620Z"
+    },
+    "todo:16": {
+      "task_key": "todo:16",
+      "task_label": "16",
+      "task_title": "Create reusable framework artifacts for scoring, page creation, and review cadence",
+      "session_id": "ses_286ed39deffeghl29v14L5GgQN",
+      "agent": "Sisyphus-Junior",
+      "category": "writing",
+      "updated_at": "2026-04-10T20:30:05.769Z"
+    },
+    "todo:17": {
+      "task_key": "todo:17",
+      "task_label": "17",
+      "task_title": "Run a final fact-status and compliance polish across all pages before verification",
+      "session_id": "ses_286e871ddffeeVZsX9OheeSkIr",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-high",
+      "updated_at": "2026-04-10T20:35:58.168Z"
+    },
+    "final-wave:f1": {
+      "task_key": "final-wave:f1",
+      "task_label": "F1",
+      "task_title": "Plan Compliance Audit — oracle",
+      "session_id": "ses_286ba553dffewbsqQRmQMSvohE",
+      "agent": "oracle",
+      "category": "",
+      "updated_at": "2026-04-10T21:23:51.779Z"
+    }
+  }
+}

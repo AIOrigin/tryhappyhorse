@@ -1,0 +1,141 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]: /
+      - listitem [ref=e9]:
+        - generic [ref=e10]: Is HappyHorse Open Source?
+  - region "Is HappyHorse Open Source?" [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: Is HappyHorse Open Source? Code, Weights and License Status
+      - heading "Is HappyHorse Open Source?" [level=1] [ref=e14]
+      - paragraph [ref=e15]: The safest answer right now is no verified public evidence shows that HappyHorse is open source, publicly licensed, or openly released with weights, so this page should answer that directly and send visitors to practical alternatives.
+    - generic "Page metadata" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Open Source Status
+        - generic [ref=e19]: Unknown
+        - generic [ref=e20]: Updated 2026-04-11
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - term [ref=e23]: Primary keyword
+          - definition [ref=e24]: is HappyHorse open source
+        - generic [ref=e25]:
+          - term [ref=e26]: CTA type
+          - definition [ref=e27]: See Alternatives
+        - generic [ref=e28]:
+          - term [ref=e29]: Generation mode
+          - definition [ref=e30]: None
+  - region "Important official-status details are still unverified" [ref=e31]:
+    - paragraph [ref=e32]: Unknown signal
+    - heading "Important official-status details are still unverified" [level=2] [ref=e33]
+    - paragraph [ref=e34]: We have not verified public source code, model weights, or an open license for HappyHorse at the time of writing.
+    - paragraph [ref=e35]: This page deliberately avoids pretending there is confirmed official access, source availability, or repository evidence when that proof is missing.
+  - generic [ref=e36]:
+    - region "Fast facts from the content model" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Open-source verification" [level=3] [ref=e44]
+            - generic [ref=e45]: Unknown
+          - paragraph [ref=e46]: We have not verified public evidence that HappyHorse is open source at the time of writing
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Public code or weights" [level=3] [ref=e49]
+            - generic [ref=e50]: Unknown
+          - paragraph [ref=e51]: We have not verified a public source release, public model weights, or a public open-license statement for HappyHorse
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Recommended next step" [level=3] [ref=e54]
+            - generic [ref=e55]: Verified
+          - paragraph [ref=e56]: When visitors want something usable now, route them toward alternatives or the site’s own action path instead of implying public release
+        - article [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Difference from GitHub-status intent" [level=3] [ref=e59]
+            - generic [ref=e60]: Verified
+          - paragraph [ref=e61]: This page answers the broader open-source question, while the GitHub page only checks whether a public repository destination can be verified
+    - region "Give visitors a forward path when certainty is limited" [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Practical next step
+        - heading "Give visitors a forward path when certainty is limited" [level=2] [ref=e65]
+      - paragraph [ref=e66]: Alternative-intent pages should stay focused on practical options first, then send visitors into the clearest usable next step instead of a generic directory loop.
+      - link "See the alternatives" [ref=e67] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+      - paragraph [ref=e68]: This CTA avoids dead ends when official access, source, or feature parity is still unclear, while keeping the alternatives page itself centered on redirection rather than category sprawl.
+  - region "Shared body content from the collection entry" [ref=e69]:
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - paragraph [ref=e74]: "This page exists to answer one specific search question: is HappyHorse actually open source? The careful answer today is that we have not verified public evidence of released source code, released weights, or a public open-source license. That is the answer visitors should see first, not after several paragraphs of repo speculation."
+      - heading "What this page means by open source" [level=2] [ref=e75]
+      - paragraph [ref=e76]: Open source is broader than finding a repository with the right name. For this route, the useful standard is whether public evidence shows source code, model weights, and licensing terms that people can actually review or use. If those pieces are not publicly verified, the page should not imply that HappyHorse is open source just because people are searching for it that way.
+      - heading "What is still unverified" [level=2] [ref=e77]
+      - paragraph [ref=e78]: At the time of writing, we have not verified a public official source release, a public model-weight release, or a clear public open-license statement for HappyHorse. That keeps the open-source answer in unknown territory. The page should say that plainly so visitors do not mistake search interest for confirmed availability.
+      - heading "Why this page is not the GitHub-status page" [level=2] [ref=e79]
+      - paragraph [ref=e80]:
+        - text: "The GitHub route answers a narrower question: can an official public repository destination be verified? This route has a different job. It covers the broader open-source status question, which includes code release, weight access, and licensing, even if no official repository can be confirmed. Keeping that split visible helps"
+        - link "HappyHorse GitHub" [ref=e81] [cursor=pointer]:
+          - /url: /happyhorse-github/
+        - text: and this page stay materially different instead of feeling like duplicates.
+      - heading "What to do if you need a practical next step" [level=2] [ref=e82]
+      - paragraph [ref=e83]:
+        - text: If you arrived here hoping to download code, inspect weights, or start building right away, do not assume public release exists. Use
+        - link "HappyHorse alternatives" [ref=e84] [cursor=pointer]:
+          - /url: /happyhorse-alternatives/
+        - text: when you want a practical path forward, or continue to
+        - link "Try HappyHorse" [ref=e85] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - text: if you want this site’s own non-official action route. Those paths are more useful than overpromising access that has not been verified.
+      - heading "Non-official reminder" [level=2] [ref=e86]
+      - paragraph [ref=e87]: This website is an independent informational and comparison resource. It is not the official HappyHorse website or service, and this page should not imply source release, weight availability, or public licensing unless that evidence is publicly verified.
+  - region "Questions this page should answer directly" [ref=e88]:
+    - generic [ref=e89]:
+      - paragraph [ref=e90]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e91]
+    - generic [ref=e92]:
+      - article [ref=e93]:
+        - heading "Is HappyHorse open source right now?" [level=3] [ref=e94]
+        - paragraph [ref=e95]: We have not verified public evidence that HappyHorse is open source, openly licensed, or publicly released with weights at the time of writing.
+      - article [ref=e96]:
+        - heading "Does a GitHub repository automatically prove that something is open source?" [level=3] [ref=e97]
+        - paragraph [ref=e98]: No. A public repository can exist without an open-source license, without model weights, or without official status. That is why this route stays broader than the GitHub-status page.
+      - article [ref=e99]:
+        - heading "What should users do if they wanted code or weights but cannot verify public access?" [level=3] [ref=e100]
+        - paragraph [ref=e101]: The safest next step is to use /happyhorse-alternatives/ for practical options or /try-happyhorse/ for this site’s own action path, instead of assuming public release exists.
+      - article [ref=e102]:
+        - heading "Can this page claim source release, model weights, or public licensing?" [level=3] [ref=e103]
+        - paragraph [ref=e104]: No. Those claims should stay unverified unless clear public evidence appears.
+  - region "Keep visitors moving through the intent cluster" [ref=e105]:
+    - generic [ref=e106]:
+      - paragraph [ref=e107]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e108]
+    - generic [ref=e109]:
+      - link "HappyHorse Alternatives Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes." [ref=e110] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+        - generic [ref=e111]: HappyHorse Alternatives
+        - generic [ref=e112]: Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes.
+      - link "Try HappyHorse Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works." [ref=e113] [cursor=pointer]:
+        - /url: /try-happyhorse/
+        - generic [ref=e114]: Try HappyHorse
+        - generic [ref=e115]: Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works.
+      - link "HappyHorse GitHub Status Repo-status packet for GitHub-intent searches that explains what public repository evidence is verified, what remains unknown, and where visitors should go instead of assuming official repo access." [ref=e116] [cursor=pointer]:
+        - /url: /happyhorse-github/
+        - generic [ref=e117]: HappyHorse GitHub Status
+        - generic [ref=e118]: Repo-status packet for GitHub-intent searches that explains what public repository evidence is verified, what remains unknown, and where visitors should go instead of assuming official repo access.
+  - complementary "Independent, non-official positioning" [ref=e119]:
+    - generic [ref=e120]:
+      - paragraph [ref=e121]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e122]
+    - paragraph [ref=e123]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - generic "Site footer" [ref=e124]:
+    - generic [ref=e125]:
+      - paragraph [ref=e126]: Site baseline
+      - paragraph [ref=e127]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e128]:
+      - link "Privacy & compliance" [ref=e129] [cursor=pointer]:
+        - /url: /privacy-compliance/

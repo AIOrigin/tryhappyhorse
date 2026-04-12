@@ -1,0 +1,34 @@
+{
+  "name": "auto-seo",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "node ./scripts/clean.mjs",
+    "predev": "node ./scripts/predev.mjs",
+    "dev": "next dev",
+    "build": "npm run typecheck && next build && node ./scripts/postbuild.mjs",
+    "preview": "node ./scripts/preview.mjs",
+    "generate:assets": "node ./scripts/generate-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "node ./tests/e2e/run.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1029.0",
+    "gray-matter": "^4.0.3",
+    "next": "^15.3.1",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "sharp": "^0.34.5",
+    "yaml": "^2.8.3",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.9.3"
+  }
+}

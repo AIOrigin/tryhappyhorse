@@ -1,0 +1,170 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - generic [ref=e7]: Home
+  - region "HappyHorse AI Video Guide" [ref=e8]:
+    - generic [ref=e9]:
+      - paragraph [ref=e10]: HappyHorse AI Video Guide and Access Hub
+      - heading "HappyHorse AI Video Guide" [level=1] [ref=e11]
+      - paragraph [ref=e12]: HappyHorse is a fast-rising AI video topic, and this independent homepage helps you learn what it is, compare it with Seedance, try a similar workflow, review alternatives, and grab prompt ideas.
+    - generic "Page metadata" [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: Homepage
+        - generic [ref=e16]: Mixed
+        - generic [ref=e17]: Updated 2026-04-11
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - term [ref=e20]: Primary keyword
+          - definition [ref=e21]: HappyHorse AI
+        - generic [ref=e22]:
+          - term [ref=e23]: CTA type
+          - definition [ref=e24]: Try Now
+        - generic [ref=e25]:
+          - term [ref=e26]: Generation mode
+          - definition [ref=e27]: Indirect
+  - complementary "Independent, non-official positioning" [ref=e28]:
+    - generic [ref=e29]:
+      - paragraph [ref=e30]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e31]
+    - paragraph [ref=e32]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - region "Some facts are supported, but other details remain uncertain" [ref=e33]:
+    - paragraph [ref=e34]: Mixed signal
+    - heading "Some facts are supported, but other details remain uncertain" [level=2] [ref=e35]
+    - paragraph [ref=e36]: Public information confirms breakout attention around the topic, but product access details remain mixed and should be framed carefully.
+    - paragraph [ref=e37]: Readers should expect careful wording here because public reporting confirms the topic, while some product details still need cautious treatment.
+  - generic [ref=e38]:
+    - region "Fast facts from the content model" [ref=e39]:
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - article [ref=e44]:
+          - generic [ref=e45]:
+            - heading "Site positioning" [level=3] [ref=e46]
+            - generic [ref=e47]: Verified
+          - paragraph [ref=e48]: Independent guide, comparison, prompts, and app-entry hub for the HappyHorse topic
+        - article [ref=e49]:
+          - generic [ref=e50]:
+            - heading "Official status" [level=3] [ref=e51]
+            - generic [ref=e52]: Verified
+          - paragraph [ref=e53]: This site is not the official HappyHorse website or service
+        - article [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Public access clarity" [level=3] [ref=e56]
+            - generic [ref=e57]: Mixed
+          - paragraph [ref=e58]: Public information about direct official access remains mixed, so the site routes action intent into /try-happyhorse/
+    - region "Send visitors to the canonical in-site access route" [ref=e59]:
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: Primary next step
+        - heading "Send visitors to the canonical in-site access route" [level=2] [ref=e62]
+      - paragraph [ref=e63]: This keeps the conversion path consistent and avoids unsupported claims about a separate official HappyHorse access page.
+      - link "Go to /try-happyhorse/" [ref=e64] [cursor=pointer]:
+        - /url: /try-happyhorse/
+      - paragraph [ref=e65]: The shared shell handles the conversion block now, while the actual generator lands later on the same route.
+  - region "Shared body content from the collection entry" [ref=e66]:
+    - generic [ref=e67]:
+      - paragraph [ref=e68]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e69]
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: HappyHorse is getting attention as an AI video model, but public information about official access and product specifics is still mixed. This independent homepage is the quick-start hub for the topic, so visitors can understand the trend, choose the right next page, and move into a practical workflow without mistaking this site for an official HappyHorse property.
+      - heading "Start with the route that matches your question" [level=2] [ref=e72]
+      - list [ref=e73]:
+        - listitem [ref=e74]:
+          - link "What Is HappyHorse?" [ref=e75] [cursor=pointer]:
+            - /url: /what-is-happyhorse/
+          - text: for the fastest explainer on why the topic is trending and which details still need cautious wording.
+        - listitem [ref=e76]:
+          - link "HappyHorse vs Seedance" [ref=e77] [cursor=pointer]:
+            - /url: /happyhorse-vs-seedance/
+          - text: for the canonical comparison page instead of splitting intent across duplicate comparison routes.
+        - listitem [ref=e78]:
+          - link "Try HappyHorse" [ref=e79] [cursor=pointer]:
+            - /url: /try-happyhorse/
+          - text: for the site’s primary app and access entry when you want to move from reading into a hands-on workflow.
+        - listitem [ref=e80]:
+          - link "HappyHorse Alternatives" [ref=e81] [cursor=pointer]:
+            - /url: /happyhorse-alternatives/
+          - text: for practical options when direct official access remains unclear.
+        - listitem [ref=e82]:
+          - link "HappyHorse Prompt Templates" [ref=e83] [cursor=pointer]:
+            - /url: /happyhorse-prompts/
+          - text: for creator-ready prompt ideas you can carry into the in-site generation flow.
+      - heading "Fastest next step" [level=2] [ref=e84]
+      - paragraph [ref=e85]:
+        - text: If you already know you want action instead of more background, go straight to
+        - link "the /try-happyhorse/ route" [ref=e86] [cursor=pointer]:
+          - /url: /try-happyhorse/
+          - text: the
+          - code [ref=e87]: /try-happyhorse/
+          - text: route
+        - text: . It is the canonical in-site entry for this MVP and the clearest next step for visitors who want a HappyHorse-style workflow on this site.
+      - heading "Support routes for deeper checks" [level=2] [ref=e88]
+      - paragraph [ref=e89]:
+        - text: If your question is more specific than the Must-launch path, the supporting routes are here too. Use
+        - link "HappyHorse GitHub Status" [ref=e90] [cursor=pointer]:
+          - /url: /happyhorse-github/
+        - text: for repo-status intent,
+        - link "Is HappyHorse Open Source?" [ref=e91] [cursor=pointer]:
+          - /url: /happyhorse-open-source/
+        - text: for code/weights/license intent, and
+        - link "Best AI Video Models" [ref=e92] [cursor=pointer]:
+          - /url: /best-ai-video-models/
+        - text: when you want the broader category view before returning to the main HappyHorse funnel.
+      - heading "Non-official positioning" [level=2] [ref=e93]
+      - paragraph [ref=e94]: This website is an independent informational and comparison resource. It is not the official HappyHorse website, official signup flow, or official API access page, and the copy across the site should stay clear about that boundary.
+  - region "Questions this page should answer directly" [ref=e95]:
+    - generic [ref=e96]:
+      - paragraph [ref=e97]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e98]
+    - generic [ref=e99]:
+      - article [ref=e100]:
+        - heading "What should the homepage help visitors do first?" [level=3] [ref=e101]
+        - paragraph [ref=e102]: It should explain the topic in one sentence and route visitors to the canonical access page, comparison page, prompts, and alternatives without acting like an official product home.
+      - article [ref=e103]:
+        - heading "Does this page claim to be the official HappyHorse website?" [level=3] [ref=e104]
+        - paragraph [ref=e105]: No. It must keep the non-official disclaimer visible and avoid unsupported official claims.
+  - region "Keep visitors moving through the intent cluster" [ref=e106]:
+    - generic [ref=e107]:
+      - paragraph [ref=e108]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - link "What Is HappyHorse? A careful explainer for people searching what HappyHorse is, what seems confirmed so far, and where to go next without overclaiming." [ref=e111] [cursor=pointer]:
+        - /url: /what-is-happyhorse/
+        - generic [ref=e112]: What Is HappyHorse?
+        - generic [ref=e113]: A careful explainer for people searching what HappyHorse is, what seems confirmed so far, and where to go next without overclaiming.
+      - link "HappyHorse vs Seedance Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate." [ref=e114] [cursor=pointer]:
+        - /url: /happyhorse-vs-seedance/
+        - generic [ref=e115]: HappyHorse vs Seedance
+        - generic [ref=e116]: Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate.
+      - link "Try HappyHorse Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works." [ref=e117] [cursor=pointer]:
+        - /url: /try-happyhorse/
+        - generic [ref=e118]: Try HappyHorse
+        - generic [ref=e119]: Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works.
+      - link "HappyHorse Alternatives Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes." [ref=e120] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+        - generic [ref=e121]: HappyHorse Alternatives
+        - generic [ref=e122]: Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes.
+      - link "HappyHorse-Style Prompt Templates Creator-first prompt packet with reusable HappyHorse-style examples, non-official framing, and a clear path into the in-site generator." [ref=e123] [cursor=pointer]:
+        - /url: /happyhorse-prompts/
+        - generic [ref=e124]: HappyHorse-Style Prompt Templates
+        - generic [ref=e125]: Creator-first prompt packet with reusable HappyHorse-style examples, non-official framing, and a clear path into the in-site generator.
+      - link "HappyHorse GitHub Status Repo-status packet for GitHub-intent searches that explains what public repository evidence is verified, what remains unknown, and where visitors should go instead of assuming official repo access." [ref=e126] [cursor=pointer]:
+        - /url: /happyhorse-github/
+        - generic [ref=e127]: HappyHorse GitHub Status
+        - generic [ref=e128]: Repo-status packet for GitHub-intent searches that explains what public repository evidence is verified, what remains unknown, and where visitors should go instead of assuming official repo access.
+      - link "Is HappyHorse Open Source? Open-source status packet that answers the public code, weights, and license question directly, then routes visitors to practical alternatives when public availability is not verified." [ref=e129] [cursor=pointer]:
+        - /url: /happyhorse-open-source/
+        - generic [ref=e130]: Is HappyHorse Open Source?
+        - generic [ref=e131]: Open-source status packet that answers the public code, weights, and license question directly, then routes visitors to practical alternatives when public availability is not verified.
+      - link "Best AI Video Models Category support page for broader AI video model discovery that keeps HappyHorse visible, adds practical comparison context, and routes visitors back into the campaign funnel." [ref=e132] [cursor=pointer]:
+        - /url: /best-ai-video-models/
+        - generic [ref=e133]: Best AI Video Models
+        - generic [ref=e134]: Category support page for broader AI video model discovery that keeps HappyHorse visible, adds practical comparison context, and routes visitors back into the campaign funnel.
+  - generic "Site footer" [ref=e135]:
+    - generic [ref=e136]:
+      - paragraph [ref=e137]: Site baseline
+      - paragraph [ref=e138]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e139]:
+      - link "Privacy & compliance" [ref=e140] [cursor=pointer]:
+        - /url: /privacy-compliance/

@@ -1,0 +1,329 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "happyhorses.io" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "happyhorses.io" [ref=e11]
+          - navigation [ref=e12]:
+            - list [ref=e13]:
+              - listitem [ref=e14]:
+                - link "Features" [ref=e15] [cursor=pointer]:
+                  - /url: /#features
+                  - img [ref=e16]
+                  - text: Features
+              - listitem [ref=e19]:
+                - link "Price" [ref=e20] [cursor=pointer]:
+                  - /url: /pricing
+                  - img [ref=e21]
+                  - text: Price
+              - listitem [ref=e23]:
+                - button "AI Effect" [ref=e24] [cursor=pointer]:
+                  - img [ref=e25]
+                  - text: AI Effect
+                  - img [ref=e28]
+              - listitem [ref=e30]:
+                - button "Image AI" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+                  - text: Image AI
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Video AI" [ref=e39] [cursor=pointer]:
+                  - img [ref=e40]
+                  - text: Video AI
+                  - img [ref=e43]
+              - listitem [ref=e45]:
+                - link "Blog" [ref=e46] [cursor=pointer]:
+                  - /url: /blog
+                  - img [ref=e47]
+                  - text: Blog
+        - generic [ref=e51]:
+          - button "English" [ref=e52] [cursor=pointer]:
+            - img
+            - generic [ref=e53]: English
+          - img [ref=e55]
+    - generic [ref=e57]:
+      - generic [ref=e59]:
+        - complementary [ref=e60]:
+          - generic [ref=e61]:
+            - button [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+            - generic:
+              - paragraph: HappyHorses
+              - paragraph: Creator Workbench
+          - generic [ref=e66]:
+            - generic [ref=e67]: Pinned
+            - generic [ref=e68]:
+              - button "Add tools" [ref=e69] [cursor=pointer]:
+                - img [ref=e71]
+                - generic:
+                  - paragraph: Add tools
+              - generic [ref=e72]:
+                - button "Text to Image Text to Image" [ref=e74]:
+                  - img "Text to Image" [ref=e76]
+                  - paragraph [ref=e78]: Text to Image
+                - button "Image to Image Image to Image" [ref=e80]:
+                  - img "Image to Image" [ref=e82]
+                  - paragraph [ref=e84]: Image to Image
+                - button "Qwen Image Layered Qwen Image Layered" [ref=e86]:
+                  - img "Qwen Image Layered" [ref=e88]
+                  - paragraph [ref=e90]: Qwen Image Layered
+                - button "Image Eraser Image Eraser" [ref=e92]:
+                  - img "Image Eraser" [ref=e94]
+                  - paragraph [ref=e96]: Image Eraser
+                - button "Background Remover Background Remover" [ref=e98]:
+                  - img "Background Remover" [ref=e100]
+                  - paragraph [ref=e102]: Background Remover
+                - button "Image Upscaler Image Upscaler" [ref=e104]:
+                  - img "Image Upscaler" [ref=e106]
+                  - paragraph [ref=e108]: Image Upscaler
+              - status [ref=e109]
+        - generic [ref=e110]:
+          - complementary [ref=e111]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - button "Text To Video Video Text To Video" [ref=e116] [cursor=pointer]:
+                  - generic [ref=e117]:
+                    - img "Text To Video" [ref=e119]
+                    - generic [ref=e120]:
+                      - generic [ref=e121]: Video
+                      - generic [ref=e124]: Text To Video
+                  - img [ref=e126]
+                - generic [ref=e129]:
+                  - paragraph [ref=e130]: Model
+                  - combobox [ref=e131]:
+                    - generic [ref=e132]:
+                      - img "Seedance 1.5 Pro" [ref=e134]
+                      - generic [ref=e135]:
+                        - paragraph [ref=e136]:
+                          - generic [ref=e138]: Seedance 1.5 Pro
+                        - paragraph [ref=e139]: Text to video generation with Seedance 1.5 Pro
+                    - img
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: Prompt*
+                    - generic [ref=e145]: 0/2000
+                  - textbox "Describe the video you want to generate" [ref=e146]
+                - generic [ref=e147]:
+                  - text: Aspect Ratio
+                  - generic [ref=e148]:
+                    - button "21:9" [ref=e149] [cursor=pointer]:
+                      - generic [ref=e151]: 21:9
+                    - button "16:9" [ref=e152] [cursor=pointer]:
+                      - generic [ref=e154]: 16:9
+                    - button "4:3" [ref=e155] [cursor=pointer]:
+                      - generic [ref=e157]: 4:3
+                    - button "1:1" [ref=e158] [cursor=pointer]:
+                      - generic [ref=e160]: 1:1
+                    - button "3:4" [ref=e161] [cursor=pointer]:
+                      - generic [ref=e163]: 3:4
+                    - button "9:16" [ref=e164] [cursor=pointer]:
+                      - generic [ref=e166]: 9:16
+                - generic [ref=e167]:
+                  - text: Resolution
+                  - combobox [ref=e168]:
+                    - generic: Fast 720p
+                    - img
+                - generic [ref=e169]:
+                  - text: Duration
+                  - combobox [ref=e170]:
+                    - generic: 5s
+                    - img
+                - generic [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173]:
+                    - paragraph [ref=e174]: Generate Audio
+                    - paragraph [ref=e175]: Create native synced audio in the output video.
+                  - checkbox "Generate Audio Create native synced audio in the output video." [ref=e176]
+                - generic [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179]:
+                    - paragraph [ref=e180]: Fixed Camera
+                    - paragraph [ref=e181]: Keep the camera more stable during generation.
+                  - checkbox "Fixed Camera Keep the camera more stable during generation." [ref=e182]
+                - generic [ref=e183]:
+                  - text: Seed
+                  - textbox "Use -1 for random seed" [ref=e184]: "-1"
+              - generic [ref=e185]:
+                - button "Generate Video" [disabled] [ref=e186]:
+                  - img [ref=e187]
+                  - text: Generate Video
+                - button "💳 Click to Pay for More Credits" [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: 💳
+                  - text: Click to Pay for More Credits
+          - main [ref=e192]:
+            - generic [ref=e195]:
+              - generic [ref=e199]: This Time Creation (Videos)
+              - paragraph [ref=e202]: Oops! It looks like you haven't created anything yet.
+      - generic [ref=e205]:
+        - heading "Seedance 1.5 Pro Text to Video" [level=1] [ref=e207]
+        - paragraph [ref=e208]:
+          - text: Seedance 1.5 Pro generates video and synchronized audio in a single pass. Describe your scene with dialogue—characters speak with lip movements matching multiple languages including English, Chinese, Japanese, Korean, and Spanish. Try Seedance 1.5 Pro for free below!
+          - text: Have reference images?
+          - link "Try Seedance 1.5 Pro Image to Video" [ref=e209] [cursor=pointer]:
+            - /url: /image-to-video/seedance-1-5-pro
+          - text: for character animation.
+      - paragraph [ref=e213]: happyhorses.io is an independent AI service and is not affiliated with any model provider. We deploy and optimize Apache-2.0 licensed models on our own infrastructure.
+      - generic [ref=e214]:
+        - generic [ref=e216]:
+          - generic [ref=e218]:
+            - heading "Key Features" [level=2] [ref=e219]
+            - paragraph
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - img [ref=e226]
+                - heading "Multilingual Lip-Sync" [level=3] [ref=e231]
+              - generic [ref=e232]: Characters speak with accurate lip movements matching your dialogue. Supports multiple languages including English, Chinese, Japanese, Korean, Spanish, Indonesian, and Portuguese, plus regional dialects. No dubbing artifacts or timing mismatches.
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - img [ref=e236]
+                - heading "Multi-Shot Storytelling" [level=3] [ref=e239]
+              - generic [ref=e240]: Generate videos with multiple scenes that maintain narrative coherence. Characters, lighting, and visual style stay consistent across different shots—create story sequences, not just isolated clips.
+            - generic [ref=e241]:
+              - generic [ref=e242]:
+                - img [ref=e244]
+                - heading "Cinematic Camera Control" [level=3] [ref=e247]
+              - generic [ref=e248]: Direct your video like a cinematographer. Specify pan, tilt, zoom, orbit, and tracking shots in your prompt. The model executes professional camera movements with precise framing.
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - img [ref=e252]
+                - heading "Joint Audio-Visual Generation" [level=3] [ref=e254]
+              - generic [ref=e255]: Video and audio generate together, not sequentially. Dialogue timing, sound effect placement, and music sync are built into the generation process—no manual alignment needed.
+        - generic [ref=e259]:
+          - heading "Use Cases" [level=2] [ref=e260]
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - img [ref=e264]
+                - heading "Multilingual Marketing" [level=3] [ref=e269]
+              - paragraph [ref=e270]: Create the same ad in multiple languages with accurate lip-sync. No reshoots, no dubbing artifacts.
+            - generic [ref=e271]:
+              - generic [ref=e272]:
+                - img [ref=e273]
+                - heading "Short-Form Storytelling" [level=3] [ref=e276]
+              - paragraph [ref=e277]: Generate multi-shot narrative sequences with consistent characters for web series and social content.
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - img [ref=e280]
+                - heading "Explainer Videos" [level=3] [ref=e283]
+              - paragraph [ref=e284]: Produce talking-head style content with synchronized speech. Characters explain concepts naturally.
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - img [ref=e287]
+                - heading "Social Media Ads" [level=3] [ref=e290]
+              - paragraph [ref=e291]: Create scroll-stopping video ads with dialogue hooks. Test multiple scripts rapidly.
+        - generic [ref=e293]:
+          - generic [ref=e295]:
+            - heading "FAQ" [level=2] [ref=e296]
+            - paragraph
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - heading "What is Seedance 1.5 Pro?" [level=3] [ref=e302]:
+                  - button "What is Seedance 1.5 Pro?" [ref=e303] [cursor=pointer]:
+                    - text: What is Seedance 1.5 Pro?
+                    - img
+                - separator [ref=e304]
+              - generic [ref=e305]:
+                - heading "How is this different from Veo 3.1?" [level=3] [ref=e307]:
+                  - button "How is this different from Veo 3.1?" [ref=e308] [cursor=pointer]:
+                    - text: How is this different from Veo 3.1?
+                    - img
+                - separator [ref=e309]
+              - generic [ref=e310]:
+                - heading "What languages does lip-sync support?" [level=3] [ref=e312]:
+                  - button "What languages does lip-sync support?" [ref=e313] [cursor=pointer]:
+                    - text: What languages does lip-sync support?
+                    - img
+                - separator [ref=e314]
+              - generic [ref=e315]:
+                - heading "Can I control camera movement?" [level=3] [ref=e317]:
+                  - button "Can I control camera movement?" [ref=e318] [cursor=pointer]:
+                    - text: Can I control camera movement?
+                    - img
+                - separator [ref=e319]
+              - heading "What's the difference from Image to Video?" [level=3] [ref=e322]:
+                - button "What's the difference from Image to Video?" [ref=e323] [cursor=pointer]:
+                  - text: What's the difference from Image to Video?
+                  - img
+            - paragraph
+        - generic [ref=e326]:
+          - heading "Turn your text into stunning videos." [level=2] [ref=e328]
+          - paragraph [ref=e330]:
+            - text: Try the z-image text-to-video AI generator and start creating videos in seconds.
+            - text: No video editing skills needed · Free to try
+          - link "Start generating videos" [ref=e333] [cursor=pointer]:
+            - /url: "#playground"
+            - generic [ref=e334]: Start generating videos
+      - contentinfo [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - generic [ref=e338]:
+              - link "happyhorses.io" [ref=e339] [cursor=pointer]:
+                - /url: /
+                - img "happyhorses.io" [ref=e341]
+              - paragraph [ref=e342]: happyhorses.io - Fast & Free Image generator
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e345]: Project
+                - link "Features" [ref=e347] [cursor=pointer]:
+                  - /url: /#features
+              - generic [ref=e348]:
+                - generic [ref=e349]: Resources
+                - link "Documentation" [ref=e351] [cursor=pointer]:
+                  - /url: /docs
+          - generic [ref=e353]:
+            - link "English" [ref=e354] [cursor=pointer]:
+              - /url: /en/text-to-video/seedance-1-5-pro
+            - link "English (India)" [ref=e355] [cursor=pointer]:
+              - /url: /en-IN/text-to-video/seedance-1-5-pro
+            - link "中文" [ref=e356] [cursor=pointer]:
+              - /url: /zh/text-to-video/seedance-1-5-pro
+            - link "繁體中文（台灣）" [ref=e357] [cursor=pointer]:
+              - /url: /zh-Hant-TW/text-to-video/seedance-1-5-pro
+            - link "繁體中文（香港）" [ref=e358] [cursor=pointer]:
+              - /url: /zh-hk/text-to-video/seedance-1-5-pro
+            - link "Deutsch" [ref=e359] [cursor=pointer]:
+              - /url: /de-DE/text-to-video/seedance-1-5-pro
+            - link "한국어" [ref=e360] [cursor=pointer]:
+              - /url: /ko-KR/text-to-video/seedance-1-5-pro
+            - link "日本語" [ref=e361] [cursor=pointer]:
+              - /url: /ja-JP/text-to-video/seedance-1-5-pro
+            - link "Español" [ref=e362] [cursor=pointer]:
+              - /url: /es-ES/text-to-video/seedance-1-5-pro
+            - link "Italiano" [ref=e363] [cursor=pointer]:
+              - /url: /it-IT/text-to-video/seedance-1-5-pro
+            - link "Português (Brasil)" [ref=e364] [cursor=pointer]:
+              - /url: /pt-BR/text-to-video/seedance-1-5-pro
+            - link "Русский" [ref=e365] [cursor=pointer]:
+              - /url: /ru-RU/text-to-video/seedance-1-5-pro
+            - link "Türkçe" [ref=e366] [cursor=pointer]:
+              - /url: /tr-TR/text-to-video/seedance-1-5-pro
+            - link "پښتو" [ref=e367] [cursor=pointer]:
+              - /url: /ps-AF/text-to-video/seedance-1-5-pro
+          - generic [ref=e369]:
+            - generic [ref=e371]:
+              - text: © 2026
+              - link "happyhorses" [ref=e372] [cursor=pointer]:
+                - /url: /
+              - text: ", All rights reserved"
+            - generic [ref=e374]:
+              - link "support@happyhorses.io" [ref=e375] [cursor=pointer]:
+                - /url: mailto:support@happyhorses.io
+              - link "Privacy Policy" [ref=e376] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Terms of Service" [ref=e377] [cursor=pointer]:
+                - /url: /terms-of-service
+              - link "Content Moderation Policy" [ref=e378] [cursor=pointer]:
+                - /url: /content-moderation-policy
+              - link "Acceptable Use Policy" [ref=e379] [cursor=pointer]:
+                - /url: /acceptable-use-policy
+              - link "Refund Policy" [ref=e380] [cursor=pointer]:
+                - /url: /refund-policy
+              - link "AI Wrapper Disclaimer" [ref=e381] [cursor=pointer]:
+                - /url: /ai-wrapper-disclaimer
+              - link "Open-Source Attribution" [ref=e382] [cursor=pointer]:
+                - /url: /open-source-attribution
+  - alert [ref=e383]
+  - region "Notifications alt+T"

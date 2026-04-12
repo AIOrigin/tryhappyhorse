@@ -1,0 +1,102 @@
+---
+title: What Is AuroraForge? AI Video Model Explainer
+description: Independent explainer page for a future trend topic, written to match the current content collection schema and shared page shell.
+h1: What Is AuroraForge?
+topic: AuroraForge
+page_type: explainer
+intent_cluster: model explainer
+keyword_primary: what is AuroraForge
+keyword_secondary:
+  - AuroraForge AI
+  - AuroraForge model
+  - AuroraForge video model
+model_name: AuroraForge
+# Add competitor_name only for comparison or alternatives pages.
+cta_type: try_now
+conversion_target: generation_activation
+generation_entry_mode: indirect
+trend_score: 84
+publish_priority: Must
+route:
+  path: /what-is-auroraforge/
+  slug: what-is-auroraforge
+  is_homepage: false
+  is_canonical_app_entry: false
+canonical_path: /what-is-auroraforge/
+answer_summary: AuroraForge appears to be an emerging AI video topic. This page should answer the query directly, separate verified public facts from unknown details, and route action intent into the site's existing non-official workflow.
+source_urls:
+  - https://example.com/news/auroraforge-launch
+  - https://news.google.com/
+  - https://www.google.com/search?q=auroraforge+ai
+fact_status: mixed
+fact_status_note: Search interest and public discussion can be cited, but access, benchmarks, and official product details should stay clearly marked when they are still incomplete or unverified.
+last_updated_at: "2026-04-11"
+disclaimer_text: "Disclaimer: This website is an independent informational and comparison resource and is not the official AuroraForge website or service."
+related_pages:
+  - /try-auroraforge/
+  - /auroraforge-vs-lumaforge/
+  - /auroraforge-alternatives/
+key_facts:
+  - label: Topic status
+    value: AuroraForge is an emerging topic with enough public discussion to support an explainer page
+    status: mixed
+  - label: Official status
+    value: This site is not the official AuroraForge website or service
+    status: verified
+  - label: Best next step
+    value: Visitors who want action should be routed into the trend's existing access or generation page rather than treated as if they are already on an official product page
+    status: verified
+faq_items:
+  - question: Is this the official AuroraForge website?
+    answer: No. This page is an independent explainer and should stay explicit about that.
+  - question: What should happen after the explainer answers the query?
+    answer: The page should send visitors to the clearest next step, usually the trend's access page, comparison page, prompts page, or alternatives page.
+---
+
+This file is a reusable MDX page artifact for future trend topics. The frontmatter above matches the current `src/content.config.ts` collection model and follows the same body structure already used by the live HappyHorse pages. If a future entry is copied into `src/content/pages/`, it can use the existing shared content-route architecture without adding a new page component.
+
+## Reuse notes
+
+Replace only the trend-specific variables the framework allows:
+
+1. model name
+2. competitor set
+3. prompt examples
+4. comparison logic
+5. trend-specific language
+
+Keep the reusable system pieces stable:
+
+1. page schema and frontmatter shape
+2. CTA taxonomy
+3. fact status handling
+4. disclaimer policy
+5. review cadence
+
+## Body structure to keep
+
+Open with a direct answer in the first paragraph.
+
+## What is verified
+
+List the facts public sources actually support.
+
+## What is still unknown or mixed
+
+Call out the limits of the public record instead of guessing.
+
+## Why this page exists
+
+Explain the single search intent this page is meant to satisfy.
+
+## Where visitors should go next
+
+Use one primary CTA path that fits the page intent. Keep related links visible so the page joins the same internal-link system as the rest of the campaign.
+
+## Conditional field rules
+
+1. `competitor_name` is required for `comparison` and `alternatives` pages.
+2. `route.path` must match `canonical_path`.
+3. `related_pages` must include at least 2 route paths.
+4. In the current HappyHorse implementation, use `generation_entry_mode: direct` only on `/try-happyhorse/`. Keep the same single-entry pattern when reusing this template for a future trend.
+5. Direct generation pages must use `cta_type: try_now`.

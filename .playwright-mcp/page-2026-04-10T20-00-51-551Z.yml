@@ -1,0 +1,158 @@
+- main [ref=e3]:
+  - navigation "Breadcrumb" [ref=e4]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]: /
+      - listitem [ref=e9]:
+        - generic [ref=e10]: HappyHorse-Style Prompt Templates
+  - region "HappyHorse-Style Prompt Templates" [ref=e11]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: HappyHorse-Style Prompt Templates for AI Video Creators
+      - heading "HappyHorse-Style Prompt Templates" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Use these HappyHorse-style prompt examples as transferable starting points for cinematic AI video work, then move into /try-happyhorse/ when you want to turn an idea into a practical generation flow on this site.
+    - generic "Page metadata" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Prompts
+        - generic [ref=e19]: Mixed
+        - generic [ref=e20]: Updated 2026-04-11
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - term [ref=e23]: Primary keyword
+          - definition [ref=e24]: HappyHorse prompts
+        - generic [ref=e25]:
+          - term [ref=e26]: CTA type
+          - definition [ref=e27]: Get Prompts
+        - generic [ref=e28]:
+          - term [ref=e29]: Generation mode
+          - definition [ref=e30]: Indirect
+  - region "Some facts are supported, but other details remain uncertain" [ref=e31]:
+    - paragraph [ref=e32]: Mixed signal
+    - heading "Some facts are supported, but other details remain uncertain" [level=2] [ref=e33]
+    - paragraph [ref=e34]: General AI video prompting patterns are well supported, but any claim about an official HappyHorse prompt format or exact output reproduction should still be treated cautiously.
+    - paragraph [ref=e35]: Readers should expect careful wording here because public reporting confirms the topic, while some product details still need cautious treatment.
+  - generic [ref=e36]:
+    - region "Fast facts from the content model" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Key facts
+        - heading "Fast facts from the content model" [level=2] [ref=e40]
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Primary user intent" [level=3] [ref=e44]
+            - generic [ref=e45]: Verified
+          - paragraph [ref=e46]: Creator intent here is prompt drafting, concept shaping, and moving quickly into a practical generation workflow
+        - article [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Prompt framing" [level=3] [ref=e49]
+            - generic [ref=e50]: Verified
+          - paragraph [ref=e51]: The safest wording is HappyHorse-style or similar AI video style, not official HappyHorse prompt syntax
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Expected next step" [level=3] [ref=e54]
+            - generic [ref=e55]: Verified
+          - paragraph [ref=e56]: After choosing a template, visitors should continue to /try-happyhorse/ to use the site’s canonical action path
+        - article [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Guaranteed reproduction" [level=3] [ref=e59]
+            - generic [ref=e60]: Mixed
+          - paragraph [ref=e61]: No prompt here should promise exact visual reproduction or verified one-to-one output matching with HappyHorse
+    - region "Move from ideas into reusable prompt-driven action" [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Creator next step
+        - heading "Move from ideas into reusable prompt-driven action" [level=2] [ref=e65]
+      - paragraph [ref=e66]: Prompt pages should move creator-intent visitors toward reusable templates and then into the canonical app entry.
+      - link "Take these prompts into the app entry" [ref=e67] [cursor=pointer]:
+        - /url: /try-happyhorse/
+      - paragraph [ref=e68]: Prompting stays non-official and transferable instead of pretending there is a verified HappyHorse-native prompt interface.
+  - region "Shared body content from the collection entry" [ref=e69]:
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: Context
+      - heading "Shared body content from the collection entry" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - paragraph [ref=e74]: This page is for creator-intent visitors who want to get from a vague visual idea to a usable prompt fast. The right framing is not official HappyHorse prompting. It is HappyHorse-style prompting, which means transferable cinematic language, strong scene control, and a clear next step into this site’s own generator flow.
+      - heading "How to use this page" [level=2] [ref=e75]
+      - paragraph [ref=e76]:
+        - text: Start by picking the example that feels closest to your goal. Then swap in your own subject, camera move, environment, and pacing details. When the idea is close, move into
+        - link "Try HappyHorse" [ref=e77] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - text: so you can turn the draft into the site’s practical action path.
+      - heading "Prompt examples" [level=2] [ref=e78]
+      - heading "1. Product reveal" [level=3] [ref=e79]
+      - paragraph [ref=e80]: "“HappyHorse-style AI video prompt: a sleek silver running shoe floating above a reflective black platform, soft mist rolling across the floor, dramatic rim light, slow push-in camera, premium commercial mood, high contrast, crisp texture detail, shallow depth of field, 5 seconds”"
+      - heading "2. Anime action shot" [level=3] [ref=e81]
+      - paragraph [ref=e82]: "“HappyHorse-style AI video prompt: a teenage hero sprinting across a rainy neon rooftop at night, coat trailing behind, electric signs flickering in the background, dynamic side-tracking camera, fast cinematic motion, intense atmosphere, stylized anime lighting, 4 seconds”"
+      - heading "3. Nature travel scene" [level=3] [ref=e83]
+      - paragraph [ref=e84]: "“HappyHorse-style AI video prompt: sunrise over a mountain lake, a wooden canoe drifting through light fog, warm golden light, gentle water ripples, slow aerial pullback, calm travel-film tone, natural color grade, 6 seconds”"
+      - heading "4. Social short opener" [level=3] [ref=e85]
+      - paragraph [ref=e86]: "“HappyHorse-style AI video prompt: close-up of an iced coffee splashing into a clear glass, bright studio backdrop, punchy lighting, macro texture detail, quick whip-pan transition, upbeat ad energy, designed for a short vertical social clip, 3 seconds”"
+      - heading "A simple prompt formula" [level=2] [ref=e87]
+      - paragraph [ref=e88]: "If you want a reusable structure, keep it simple:"
+      - list [ref=e89]:
+        - listitem [ref=e90]: Subject
+        - listitem [ref=e91]: Setting
+        - listitem [ref=e92]: Motion
+        - listitem [ref=e93]: Camera move
+        - listitem [ref=e94]: Lighting and mood
+        - listitem [ref=e95]: Duration or format hint
+      - paragraph [ref=e96]: That formula helps you write tighter prompts without pretending there is one official HappyHorse command format everyone should copy.
+      - heading "What makes a prompt feel more HappyHorse-style" [level=2] [ref=e97]
+      - paragraph [ref=e98]: The common thread is usually not a secret syntax. It is a mix of vivid subject detail, clear motion, and cinematic direction. Strong prompts usually name the scene, the shot movement, the look, and the pacing in plain language. That is why this page stays transferable instead of claiming there is a verified official HappyHorse prompt interface.
+      - heading "What to do next" [level=2] [ref=e99]
+      - paragraph [ref=e100]:
+        - text: Once a prompt feels usable, continue to
+        - link "Try HappyHorse" [ref=e101] [cursor=pointer]:
+          - /url: /try-happyhorse/
+        - text: . That route is the site’s canonical action path. If you still want broader context first, compare
+        - link "HappyHorse vs Seedance" [ref=e102] [cursor=pointer]:
+          - /url: /happyhorse-vs-seedance/
+        - text: or scan
+        - link "HappyHorse alternatives" [ref=e103] [cursor=pointer]:
+          - /url: /happyhorse-alternatives/
+        - text: .
+      - heading "Non-official reminder" [level=2] [ref=e104]
+      - paragraph [ref=e105]: This website is an independent informational and comparison resource. These are HappyHorse-style prompt examples, not official HappyHorse prompts, and they should not be presented as a guarantee of exact output reproduction.
+  - region "Questions this page should answer directly" [ref=e106]:
+    - generic [ref=e107]:
+      - paragraph [ref=e108]: FAQ
+      - heading "Questions this page should answer directly" [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - article [ref=e111]:
+        - heading "Are these official HappyHorse prompts?" [level=3] [ref=e112]
+        - paragraph [ref=e113]: No. They are HappyHorse-style examples written as transferable creator prompts, not an official prompt pack from the HappyHorse team.
+      - article [ref=e114]:
+        - heading "Can these prompts guarantee the same output every time?" [level=3] [ref=e115]
+        - paragraph [ref=e116]: No. Use them as starting structures for mood, motion, framing, and scene detail, but do not treat them as a guarantee of exact output reproduction.
+      - article [ref=e117]:
+        - heading "What should I do after picking a prompt?" [level=3] [ref=e118]
+        - paragraph [ref=e119]: Take the idea into /try-happyhorse/ so you can move from template thinking into the site’s practical action path.
+  - region "Keep visitors moving through the intent cluster" [ref=e120]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: Related links
+      - heading "Keep visitors moving through the intent cluster" [level=2] [ref=e123]
+    - generic [ref=e124]:
+      - link "Try HappyHorse Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works." [ref=e125] [cursor=pointer]:
+        - /url: /try-happyhorse/
+        - generic [ref=e126]: Try HappyHorse
+        - generic [ref=e127]: Canonical access packet explaining what public HappyHorse access is verified, what this site provides directly, and how the 2-free-generation UX rule works.
+      - link "HappyHorse vs Seedance Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate." [ref=e128] [cursor=pointer]:
+        - /url: /happyhorse-vs-seedance/
+        - generic [ref=e129]: HappyHorse vs Seedance
+        - generic [ref=e130]: Canonical comparison packet for people evaluating HappyHorse against Seedance, with a direct answer, cautious source-aware framing, and no reverse-route duplicate.
+      - link "HappyHorse Alternatives Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes." [ref=e131] [cursor=pointer]:
+        - /url: /happyhorse-alternatives/
+        - generic [ref=e132]: HappyHorse Alternatives
+        - generic [ref=e133]: Alternatives packet for visitors who want a practical next step, with comparable AI video options, a clear non-official disclaimer, and links back to comparison and access routes.
+  - complementary "Independent, non-official positioning" [ref=e134]:
+    - generic [ref=e135]:
+      - paragraph [ref=e136]: Disclaimer
+      - heading "Independent, non-official positioning" [level=2] [ref=e137]
+    - paragraph [ref=e138]: "Disclaimer: This website is an independent informational and comparison resource and is not the official HappyHorse website or service."
+  - generic "Site footer" [ref=e139]:
+    - generic [ref=e140]:
+      - paragraph [ref=e141]: Site baseline
+      - paragraph [ref=e142]: This site is an independent HappyHorse guide and generator experience. Review the privacy and compliance baseline for browser-side generation, local storage gating, and telemetry expectations.
+    - navigation "Footer links" [ref=e143]:
+      - link "Privacy & compliance" [ref=e144] [cursor=pointer]:
+        - /url: /privacy-compliance/

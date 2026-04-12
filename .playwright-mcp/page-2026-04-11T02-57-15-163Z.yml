@@ -1,0 +1,360 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "happyhorses.io" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "happyhorses.io" [ref=e11]
+          - navigation [ref=e12]:
+            - list [ref=e13]:
+              - listitem [ref=e14]:
+                - link "Features" [ref=e15] [cursor=pointer]:
+                  - /url: /#features
+                  - img [ref=e16]
+                  - text: Features
+              - listitem [ref=e19]:
+                - link "Price" [ref=e20] [cursor=pointer]:
+                  - /url: /pricing
+                  - img [ref=e21]
+                  - text: Price
+              - listitem [ref=e23]:
+                - button "AI Effect" [ref=e24] [cursor=pointer]:
+                  - img [ref=e25]
+                  - text: AI Effect
+                  - img [ref=e28]
+              - listitem [ref=e30]:
+                - button "Image AI" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+                  - text: Image AI
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Video AI" [ref=e39] [cursor=pointer]:
+                  - img [ref=e40]
+                  - text: Video AI
+                  - img [ref=e43]
+              - listitem [ref=e45]:
+                - link "Blog" [ref=e46] [cursor=pointer]:
+                  - /url: /blog
+                  - img [ref=e47]
+                  - text: Blog
+        - generic [ref=e51]:
+          - button "English" [ref=e52] [cursor=pointer]:
+            - img
+            - generic [ref=e53]: English
+          - generic [ref=e55] [cursor=pointer]: Sign In
+    - complementary [ref=e56]:
+      - navigation [ref=e57]:
+        - link "Home" [ref=e58] [cursor=pointer]:
+          - /url: /
+          - img [ref=e59]
+          - generic [ref=e62]: Home
+        - link "Explore" [ref=e63] [cursor=pointer]:
+          - /url: /explore
+          - img [ref=e64]
+          - generic [ref=e67]: Explore
+        - separator [ref=e68]
+        - paragraph [ref=e69]: Creation
+        - link "AI Image" [ref=e70] [cursor=pointer]:
+          - /url: /ai-image-generator
+          - img [ref=e71]
+          - generic [ref=e75]: AI Image
+        - link "AI Effect New" [ref=e76] [cursor=pointer]:
+          - /url: /ai-effect
+          - img [ref=e77]
+          - generic [ref=e80]: AI Effect
+          - generic [ref=e81]: New
+        - link "AI Video" [ref=e82] [cursor=pointer]:
+          - /url: /ai-video-generator
+          - img [ref=e83]
+          - generic [ref=e88]: AI Video
+        - link "AI Audio Soon" [ref=e89] [cursor=pointer]:
+          - /url: /ai-audio-generator
+          - img [ref=e90]
+          - generic [ref=e94]: AI Audio
+          - generic [ref=e95]: Soon
+        - separator [ref=e96]
+        - paragraph [ref=e97]: AI Tools
+        - link "Background Remover" [ref=e98] [cursor=pointer]:
+          - /url: /image-background-remover
+          - img [ref=e99]
+          - generic [ref=e105]: Background Remover
+        - link "Image Upscaler" [ref=e106] [cursor=pointer]:
+          - /url: /image-upscaler
+          - img [ref=e107]
+          - generic [ref=e110]: Image Upscaler
+        - link "Image Eraser" [ref=e111] [cursor=pointer]:
+          - /url: /image-eraser
+          - img [ref=e112]
+          - generic [ref=e115]: Image Eraser
+        - link "Motion Control New" [ref=e116] [cursor=pointer]:
+          - /url: /motion-control/kling-2-6-pro
+          - img [ref=e117]
+          - generic [ref=e120]: Motion Control
+          - generic [ref=e121]: New
+        - link "Longcat Avatar" [ref=e122] [cursor=pointer]:
+          - /url: /longcat-avatar
+          - img [ref=e123]
+          - generic [ref=e126]: Longcat Avatar
+      - button "Upgrade Now" [ref=e128]:
+        - img [ref=e129]
+        - generic [ref=e131]: Upgrade Now
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - button "Text To Video Video Text To Video" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142]:
+                  - img "Text To Video" [ref=e144]
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: Video
+                    - generic [ref=e149]: Text To Video
+                - img [ref=e151]
+              - generic [ref=e154]:
+                - paragraph [ref=e155]: Model
+                - combobox [ref=e156]:
+                  - generic [ref=e157]:
+                    - img "Happy Horse" [ref=e159]
+                    - generic [ref=e160]:
+                      - paragraph [ref=e161]:
+                        - generic [ref=e162]:
+                          - generic [ref=e163]: Happy Horse
+                          - generic [ref=e164]: New
+                      - paragraph [ref=e165]: Text to video generation with Happy Horse
+                  - img
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Prompt*
+                  - generic [ref=e171]: 0/2000
+                - textbox "Describe the video you want to generate" [ref=e172]
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: Reference Images
+                  - generic [ref=e177]: 0/5
+                - button "Upload Max 10MB" [ref=e181] [cursor=pointer]:
+                  - img [ref=e183]
+                  - generic [ref=e186]: Upload
+                  - generic [ref=e187]: Max 10MB
+                - generic [ref=e188]:
+                  - img [ref=e189]
+                  - generic [ref=e193]: Upload up to 5 images
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]: Reference Video
+                  - generic [ref=e198]: 0/3
+                - button "Upload Max 50MB" [ref=e202] [cursor=pointer]:
+                  - img [ref=e204]
+                  - generic [ref=e207]: Upload
+                  - generic [ref=e208]: Max 50MB
+                - generic [ref=e209]:
+                  - img [ref=e210]
+                  - generic [ref=e214]: MP4, WebM, MOV (max 50MB, up to 3 videos, duration ≤ 15s)
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Reference Audio
+                  - generic [ref=e219]: 0/3
+                - button "Upload Max 20MB" [ref=e223] [cursor=pointer]:
+                  - img [ref=e225]
+                  - generic [ref=e228]: Upload
+                  - generic [ref=e229]: Max 20MB
+                - generic [ref=e230]:
+                  - img [ref=e231]
+                  - generic [ref=e235]: WAV, MP3 (max 20MB, up to 3 audios, duration ≤ 15s)
+              - generic [ref=e236]:
+                - text: Resolution
+                - combobox [ref=e237]:
+                  - generic: 720p
+                  - img
+              - generic [ref=e238]:
+                - text: Size
+                - combobox [ref=e239]:
+                  - generic: 16:9
+                  - img
+              - generic [ref=e240]:
+                - text: Duration
+                - combobox [ref=e241]:
+                  - generic: 5s
+                  - img
+              - generic [ref=e242]:
+                - text: Seed
+                - textbox "Use an integer seed" [ref=e243]: "42"
+              - generic [ref=e245] [cursor=pointer]:
+                - generic [ref=e246]:
+                  - paragraph [ref=e247]: Generate Audio
+                  - paragraph [ref=e248]: Generate synced audio in the output video.
+                - checkbox "Generate Audio Generate synced audio in the output video." [checked] [ref=e249]:
+                  - generic:
+                    - img
+            - generic [ref=e250]:
+              - button "Generate Video(142 credits)" [disabled] [ref=e251]:
+                - img [ref=e252]
+                - text: Generate Video
+                - generic [ref=e255]: (142 credits)
+              - button "💳 Click to Pay for More Credits" [ref=e256] [cursor=pointer]:
+                - generic [ref=e257]: 💳
+                - text: Click to Pay for More Credits
+          - generic [ref=e261]:
+            - generic [ref=e265]: This Time Creation (Videos)
+            - paragraph [ref=e268]: Oops! It looks like you haven't created anything yet.
+        - generic [ref=e271]:
+          - generic [ref=e272]: Happy Horses · AI Video SaaS
+          - heading "Happy horse - AI Video Creation Platform（Happyhorse）" [level=1] [ref=e273]
+          - paragraph [ref=e274]: Happy horse：Create high-quality videos with advanced AI generation capabilities. HappyHorse is a video generation capability available within the HappyHorses platform for text-to-video and image-to-video workflows.
+        - generic [ref=e283]:
+          - heading "Core Capabilities for Team Workflows" [level=2] [ref=e284]
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - generic [ref=e287]: 語
+              - heading "Multilingual Lip-Sync" [level=3] [ref=e288]
+              - paragraph [ref=e289]: Support multilingual speaking content and localized video production for campaigns, education, and cross-market distribution.
+            - generic [ref=e290]:
+              - generic [ref=e291]: ◆
+              - heading "Video Generation Within the Platform" [level=3] [ref=e292]
+              - paragraph [ref=e293]: HappyHorse refers to a video generation capability available within the HappyHorses platform for producing videos from text or image prompts.
+            - generic [ref=e294]:
+              - generic [ref=e295]: ♪
+              - heading "Faster Creative-to-Delivery Workflow" [level=3] [ref=e296]
+              - paragraph [ref=e297]: Move from idea to preview faster with a single workflow for generation, review, and iteration inside the platform.
+            - generic [ref=e298]:
+              - generic [ref=e299]: ⊞
+              - heading "Not a Standalone Model Offering" [level=3] [ref=e300]
+              - paragraph [ref=e301]: This capability is part of the product experience and is not offered as a standalone model, downloadable package, or separately distributed model service.
+        - generic [ref=e302]:
+          - heading "Platform Capability Overview of Happyhorse" [level=2] [ref=e303]
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - heading "Ad Creative Production" [level=3] [ref=e306]
+              - paragraph [ref=e307]: Generate video creatives for paid campaigns, product launches, and short-form social distribution.
+            - generic [ref=e308]:
+              - heading "Content Team Output" [level=3] [ref=e309]
+              - paragraph [ref=e310]: Help content teams produce explainers, speaking videos, and recurring media assets with less manual coordination.
+            - generic [ref=e311]:
+              - heading "Product and Training Videos" [level=3] [ref=e312]
+              - paragraph [ref=e313]: Create feature explainers, onboarding videos, and tutorial content that is easier to produce and update.
+            - generic [ref=e314]:
+              - heading "Global Content Localization" [level=3] [ref=e315]
+              - paragraph [ref=e316]: Adapt the same creative concept across markets with multilingual workflows and faster regional content production.
+        - generic [ref=e317]:
+          - heading "Frequently Asked Questions" [level=2] [ref=e318]
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - heading "What is HappyHorse?" [level=3] [ref=e321]
+              - paragraph [ref=e322]: HappyHorse refers to a video generation feature within the HappyHorses platform.
+            - generic [ref=e323]:
+              - heading "Is HappyHorse a standalone model?" [level=3] [ref=e324]
+              - paragraph [ref=e325]: No. HappyHorse is not provided as a standalone model or independently distributed model service. It is available only as part of the platform's features.
+            - generic [ref=e326]:
+              - heading "Who is HappyHorses for?" [level=3] [ref=e327]
+              - paragraph [ref=e328]: HappyHorses is designed for marketing teams, content teams, brands, studios, and creators who need faster video production workflows.
+            - generic [ref=e329]:
+              - heading "Do I need my own GPU or deployment setup?" [level=3] [ref=e330]
+              - paragraph [ref=e331]: No. HappyHorses is a SaaS platform, so users can access the workflow directly without managing their own model deployment.
+            - generic [ref=e332]:
+              - heading "Can I start using it right away?" [level=3] [ref=e333]
+              - paragraph [ref=e334]: Yes. You can start inside the platform workflow to generate, review, and iterate on video content.
+        - generic [ref=e336]:
+          - heading "Start Your AI Video Workflow" [level=2] [ref=e337]
+          - paragraph [ref=e338]:
+            - text: Create videos faster with HappyHorses.
+            - text: Faster output · Lower production friction · Built for recurring team workflows
+          - link "Start Now" [ref=e340] [cursor=pointer]:
+            - /url: "#top"
+        - region "Platform notice" [ref=e341]:
+          - generic [ref=e342]:
+            - heading "Platform Notice" [level=3] [ref=e343]
+            - paragraph [ref=e344]: HappyHorses is an independent AI platform. We do not claim ownership of underlying AI model technologies.
+        - complementary "Share" [ref=e345]:
+          - link "Share on X" [ref=e346] [cursor=pointer]:
+            - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fhappyhorses.io%2F&text=Happy%20Horses%20%E2%80%94%20AI%20Video%20Creation%20Platform
+            - img [ref=e347]
+          - link "Share on Facebook" [ref=e349] [cursor=pointer]:
+            - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhappyhorses.io%2F
+            - img [ref=e350]
+          - link "Share on LinkedIn" [ref=e352] [cursor=pointer]:
+            - /url: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fhappyhorses.io%2F
+            - img [ref=e353]
+          - link "Share on Reddit" [ref=e355] [cursor=pointer]:
+            - /url: https://www.reddit.com/submit?url=https%3A%2F%2Fhappyhorses.io%2F&title=Happy%20Horses
+            - img [ref=e356]
+          - link "Share on WhatsApp" [ref=e358] [cursor=pointer]:
+            - /url: https://api.whatsapp.com/send?text=Happy%20Horses%20https%3A%2F%2Fhappyhorses.io%2F
+            - img [ref=e359]
+          - link "Share on Telegram" [ref=e361] [cursor=pointer]:
+            - /url: https://t.me/share/url?url=https%3A%2F%2Fhappyhorses.io%2F&text=Happy%20Horses
+            - img [ref=e362]
+          - link "Share via Email" [ref=e364] [cursor=pointer]:
+            - /url: mailto:?subject=Happy%20Horses%20%E2%80%94%20AI%20Video%20Creation%20Platform&body=Check%20this%20out%3A%20https%3A%2F%2Fhappyhorses.io%2F
+            - img [ref=e365]
+      - contentinfo [ref=e368]:
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - link "happyhorses.io" [ref=e372] [cursor=pointer]:
+                - /url: /
+                - img "happyhorses.io" [ref=e374]
+              - paragraph [ref=e375]: happyhorses.io - Fast & Free Image generator
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]: Project
+                - link "Features" [ref=e380] [cursor=pointer]:
+                  - /url: /#features
+              - generic [ref=e381]:
+                - generic [ref=e382]: Resources
+                - link "Documentation" [ref=e384] [cursor=pointer]:
+                  - /url: /docs
+          - generic [ref=e386]:
+            - link "English" [ref=e387] [cursor=pointer]:
+              - /url: /en
+            - link "English (India)" [ref=e388] [cursor=pointer]:
+              - /url: /en-IN
+            - link "中文" [ref=e389] [cursor=pointer]:
+              - /url: /zh
+            - link "繁體中文（台灣）" [ref=e390] [cursor=pointer]:
+              - /url: /zh-Hant-TW
+            - link "繁體中文（香港）" [ref=e391] [cursor=pointer]:
+              - /url: /zh-hk
+            - link "Deutsch" [ref=e392] [cursor=pointer]:
+              - /url: /de-DE
+            - link "한국어" [ref=e393] [cursor=pointer]:
+              - /url: /ko-KR
+            - link "日本語" [ref=e394] [cursor=pointer]:
+              - /url: /ja-JP
+            - link "Español" [ref=e395] [cursor=pointer]:
+              - /url: /es-ES
+            - link "Italiano" [ref=e396] [cursor=pointer]:
+              - /url: /it-IT
+            - link "Português (Brasil)" [ref=e397] [cursor=pointer]:
+              - /url: /pt-BR
+            - link "Русский" [ref=e398] [cursor=pointer]:
+              - /url: /ru-RU
+            - link "Türkçe" [ref=e399] [cursor=pointer]:
+              - /url: /tr-TR
+            - link "پښتو" [ref=e400] [cursor=pointer]:
+              - /url: /ps-AF
+          - generic [ref=e402]:
+            - generic [ref=e404]:
+              - text: © 2026
+              - link "happyhorses" [ref=e405] [cursor=pointer]:
+                - /url: /
+              - text: ", All rights reserved"
+            - generic [ref=e407]:
+              - link "support@happyhorses.io" [ref=e408] [cursor=pointer]:
+                - /url: mailto:support@happyhorses.io
+              - link "Privacy Policy" [ref=e409] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Terms of Service" [ref=e410] [cursor=pointer]:
+                - /url: /terms-of-service
+              - link "Content Moderation Policy" [ref=e411] [cursor=pointer]:
+                - /url: /content-moderation-policy
+              - link "Acceptable Use Policy" [ref=e412] [cursor=pointer]:
+                - /url: /acceptable-use-policy
+              - link "Refund Policy" [ref=e413] [cursor=pointer]:
+                - /url: /refund-policy
+              - link "AI Wrapper Disclaimer" [ref=e414] [cursor=pointer]:
+                - /url: /ai-wrapper-disclaimer
+              - link "Open-Source Attribution" [ref=e415] [cursor=pointer]:
+                - /url: /open-source-attribution
+  - alert [ref=e416]
+  - region "Notifications alt+T"
