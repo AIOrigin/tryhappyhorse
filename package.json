@@ -15,6 +15,10 @@
     "upload:s3": "node ./scripts/upload-to-s3.mjs",
     "submit:search": "node ./scripts/submit-to-search-engines.mjs",
     "domain:setup": "node ./scripts/domain-setup.mjs",
+    "vercel:setup": "node ./scripts/vercel-setup.mjs",
+    "health-check": "node ./scripts/health-check.mjs",
+    "launch": "node ./scripts/launch.mjs",
+    "sites": "node ./scripts/sites.mjs",
     "typecheck": "tsc --noEmit",
     "test:e2e": "node ./tests/e2e/run.mjs"
   },
