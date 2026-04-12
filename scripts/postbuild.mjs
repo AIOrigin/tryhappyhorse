@@ -11,15 +11,10 @@ async function listContentFiles(directory) {
   const files = await Promise.all(
     entries.map(async (entry) => {
       const entryPath = path.join(directory, entry.name);
-
-      if (entry.isDirectory()) {
-        return listContentFiles(entryPath);
-      }
-
+      if (entry.isDirectory()) return listContentFiles(entryPath);
       return /\.mdx?$/i.test(entry.name) ? [entryPath] : [];
     }),
   );
-
   return files.flat().sort();
 }
 
@@ -35,16 +30,37 @@ async function getRoutes() {
       throw new Error(`Missing canonical_path in ${filePath}`);
     }
 
-    routes.push(data.canonical_path);
+    const isHomepage = data.route?.is_homepage === true;
+    const trendScore = typeof data.trend_score === 'number' ? data.trend_score : 50;
+
+    routes.push({
+      path: data.canonical_path,
+      lastmod: data.last_updated_at || new Date().toISOString().split('T')[0],
+      changefreq: isHomepage ? 'daily' : 'weekly',
+      priority: isHomepage ? '1.0' : trendScore >= 90 ? '0.9' : '0.7',
+    });
   }
 
-  routes.push('/privacy-compliance/');
+  routes.push({
+    path: '/privacy-compliance/',
+    lastmod: new Date().toISOString().split('T')[0],
+    changefreq: 'monthly',
+    priority: '0.3',
+  });
 
-  return Array.from(new Set(routes)).sort();
+  const seen = new Set();
+  return routes.filter((r) => {
+    if (seen.has(r.path)) return false;
+    seen.add(r.path);
+    return true;
+  }).sort((a, b) => a.path.localeCompare(b.path));
 }
 
 function buildUrlset(routes) {
-  const entries = routes.map((route) => `  <url><loc>${siteOrigin}${route}</loc></url>`).join('\n');
+  const entries = routes.map(
+    (r) =>
+      `  <url>\n    <loc>${siteOrigin}${r.path}</loc>\n    <lastmod>${r.lastmod}</lastmod>\n    <changefreq>${r.changefreq}</changefreq>\n    <priority>${r.priority}</priority>\n  </url>`,
+  ).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`;
 }
 

@@ -20,6 +20,8 @@ export function buildMetadataFromSeo(seo: SeoViewModel): Metadata {
         {
           url: seo.socialImageUrl,
           alt: seo.socialImageAlt,
+          width: seo.socialImageWidth,
+          height: seo.socialImageHeight,
         },
       ],
     },
