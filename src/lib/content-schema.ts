@@ -31,6 +31,7 @@ export const imageMetadataSchema = z.object({
   hero_frame: z.enum(['balanced', 'wide', 'immersive']).optional(),
   hero_position: z.string().min(1).optional(),
   alt: z.string().min(1).optional(),
+  image_prompt: z.string().min(1).optional(),
 });
 
 export const pageFrontmatterSchema = z
