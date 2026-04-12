@@ -14,6 +14,7 @@
     "generate:pages": "node ./scripts/generate-pages.mjs",
     "upload:s3": "node ./scripts/upload-to-s3.mjs",
     "submit:search": "node ./scripts/submit-to-search-engines.mjs",
+    "domain:setup": "node ./scripts/domain-setup.mjs",
     "typecheck": "tsc --noEmit",
     "test:e2e": "node ./tests/e2e/run.mjs"
   },
