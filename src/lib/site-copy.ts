@@ -1,4 +1,5 @@
 import { DEFAULT_LOCALE, type AppLocale } from './i18n';
+import { getTopicConfig } from '@/config/topic-config';
 
 type SiteCopy = {
   metadata: {
@@ -56,7 +57,7 @@ const SITE_COPY: Record<AppLocale, SiteCopy> = {
     leadMagnet: {
       headline: 'Unlock the HappyHorse Prompt Library',
       description: 'Get 50+ tested AI video prompts, comparison cheat sheets, and workflow templates delivered to your inbox.',
-      formAction: 'https://script.google.com/macros/s/AKfycbwHGiTaGuKl0s6Oae_7zpUQcDWve0xVYREQXQo8L1c096GaGse4pPWluohSUm5cxKZx/exec',
+      formAction: getTopicConfig().leadMagnetFormAction,
       buttonLabel: 'Send me the prompts',
       privacyNote: 'Free. No spam. Unsubscribe anytime.',
       inputPlaceholder: 'you@example.com',

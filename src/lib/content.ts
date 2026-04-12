@@ -5,11 +5,11 @@ import { parse as parseYaml } from 'yaml';
 import { ZodError } from 'zod';
 import { pageFrontmatterSchema, type PageEntry } from './content-schema';
 import { DEFAULT_LOCALE, isAppLocale, type AppLocale } from './i18n';
+import { getTopicSiteUrl } from '@/config/topic-config';
 
-const SITE_ORIGIN = 'https://tryhappyhorse.xyz';
 const CONTENT_ROOT = path.join(process.cwd(), 'src/content/pages');
 
-export const siteUrl = new URL(SITE_ORIGIN);
+export const siteUrl = getTopicSiteUrl();
 
 function splitFrontmatter(source: string) {
   const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);

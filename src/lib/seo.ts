@@ -1,6 +1,7 @@
 import type { PageEntry } from './content-schema';
 import { getOpenGraphLocale, getStructuredDataLanguage } from './i18n';
 import { getSiteCopy } from './site-copy';
+import { getTopicConfig } from '@/config/topic-config';
 
 export type BreadcrumbItem = {
   name: string;
@@ -33,7 +34,7 @@ export type SeoViewModel = {
   jsonLd: Array<Record<string, unknown>>;
 };
 
-export const SITE_NAME = 'HappyHorse AI Video Guide';
+export const SITE_NAME = getTopicConfig().siteName;
 export const THEME_COLOR = '#0c1224';
 export const DEFAULT_SOCIAL_IMAGE_PATH = '/social/default-share.png';
 export const DEFAULT_SOCIAL_IMAGE_WIDTH = 1200;
