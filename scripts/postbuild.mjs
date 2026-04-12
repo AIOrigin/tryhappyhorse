@@ -59,19 +59,13 @@ async function getRoutes() {
 function buildUrlset(routes) {
   const entries = routes.map(
     (r) =>
-      `  <url>\n    <loc>${siteOrigin}${r.path}</loc>\n    <lastmod>${r.lastmod}</lastmod>\n    <changefreq>${r.changefreq}</changefreq>\n    <priority>${r.priority}</priority>\n  </url>`,
+      `<url>\n<loc>${siteOrigin}${r.path}</loc>\n<lastmod>${r.lastmod}T00:00:00.000Z</lastmod>\n<changefreq>${r.changefreq}</changefreq>\n<priority>${r.priority}</priority>\n</url>`,
   ).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`;
 }
 
-function buildSitemapIndex() {
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap>\n    <loc>${siteOrigin}/sitemap-0.xml</loc>\n  </sitemap>\n</sitemapindex>`;
-}
-
 const routes = await getRoutes();
-const sitemapUrlset = buildUrlset(routes);
-const sitemapIndex = buildSitemapIndex();
+const sitemap = buildUrlset(routes);
 
-await writeFile(path.join(outputRoot, 'sitemap-0.xml'), sitemapUrlset, 'utf8');
-await writeFile(path.join(outputRoot, 'sitemap.xml'), sitemapIndex, 'utf8');
-await writeFile(path.join(outputRoot, 'sitemap-index.xml'), sitemapIndex, 'utf8');
+await writeFile(path.join(outputRoot, 'sitemap.xml'), sitemap, 'utf8');
+await writeFile(path.join(outputRoot, 'sitemap-0.xml'), sitemap, 'utf8');
