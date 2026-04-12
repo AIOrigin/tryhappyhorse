@@ -1,5 +1,6 @@
 import type { PageEntry } from './content-schema';
 import { buildSeoViewModel, type SeoViewModel } from './seo';
+import { getTopicConfig } from '@/config/topic-config';
 
 export type RelatedPageViewModel = {
   path: string;
@@ -110,21 +111,22 @@ function resolveRelatedPages(page: PageEntry, allPages: PageEntry[]): RelatedPag
   return relatedPages;
 }
 
-const UTM_BASE = 'utm_source=tryhappyhorse.xyz&utm_medium=referral';
-
-function elserUrl(path: string, campaign: string) {
-  return `https://www.elser.ai/zh${path}?${UTM_BASE}&utm_campaign=${campaign}`;
+function buildHandoffUrl(path: string, campaign: string) {
+  const config = getTopicConfig();
+  const base = config.handoff.baseUrl.replace(/\/$/, '');
+  const utmSource = encodeURIComponent(config.handoff.utmSource);
+  return `${base}${path}?utm_source=${utmSource}&utm_medium=referral&utm_campaign=${campaign}`;
 }
 
 const ELSER_HANDOFFS = {
-  primary: elserUrl('/ai-image-animator', 'homepage_hero'),
-  animeArt: elserUrl('/ai-anime-generator', 'anime_art'),
-  imageToVideo: elserUrl('/ai-image-animator', 'image_to_video'),
-  characterMaker: elserUrl('/ai-character-maker', 'character_maker'),
-  storyboard: elserUrl('/ai-storyboard', 'storyboard'),
-  storyStudio: elserUrl('/tools/story-studio', 'story_studio'),
-  templates: elserUrl('/templates', 'templates'),
-} as const;
+  get primary() { return buildHandoffUrl(getTopicConfig().handoff.primaryPath, 'homepage_hero'); },
+  get animeArt() { return buildHandoffUrl(getTopicConfig().handoff.paths.animeGenerator, 'anime_art'); },
+  get imageToVideo() { return buildHandoffUrl(getTopicConfig().handoff.paths.imageAnimator, 'image_to_video'); },
+  get characterMaker() { return buildHandoffUrl(getTopicConfig().handoff.paths.characterMaker, 'character_maker'); },
+  get storyboard() { return buildHandoffUrl(getTopicConfig().handoff.paths.storyboard, 'storyboard'); },
+  get storyStudio() { return buildHandoffUrl(getTopicConfig().handoff.paths.storyStudio, 'story_studio'); },
+  get templates() { return buildHandoffUrl(getTopicConfig().handoff.paths.templates, 'templates'); },
+};
 
 export const tryHappyHorseIntentHandoffs: IntentHandoffViewModel[] = [
   {

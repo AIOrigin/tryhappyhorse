@@ -2,7 +2,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
 
-const siteOrigin = 'https://tryhappyhorse.xyz';
+const siteOrigin = process.env.SITE_ORIGIN || 'https://tryhappyhorse.xyz';
 const contentRoot = path.join(process.cwd(), 'src/content/pages');
 const outputRoot = path.join(process.cwd(), 'out');
 

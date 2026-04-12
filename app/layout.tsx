@@ -4,8 +4,9 @@ import { SITE_NAME, THEME_COLOR } from '@/lib/seo';
 import { siteUrl } from '@/lib/content';
 import { DEFAULT_LOCALE, getHtmlLang } from '@/lib/i18n';
 import { getSiteCopy } from '@/lib/site-copy';
+import { getTopicConfig } from '@/config/topic-config';
 
-const gtmContainerId = 'GTM-WGQVVGFZ';
+const topicConfig = getTopicConfig();
 const siteCopy = getSiteCopy(DEFAULT_LOCALE);
 
 export const metadata: Metadata = {
@@ -14,9 +15,9 @@ export const metadata: Metadata = {
   title: SITE_NAME,
   description: siteCopy.metadata.siteDescription,
   verification: {
-    other: {
-      'baidu-site-verification': 'codeva-4MsLl56Xlo',
-    },
+    other: topicConfig.baiduVerification
+      ? { 'baidu-site-verification': topicConfig.baiduVerification }
+      : {},
   },
   icons: {
     icon: [
@@ -38,12 +39,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script
           id="gtm-loader"
           dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${gtmContainerId}');`,
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${topicConfig.gtmId}');`,
           }}
         />
         <noscript>
           <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${gtmContainerId}`}
+            src={`https://www.googletagmanager.com/ns.html?id=${topicConfig.gtmId}`}
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}

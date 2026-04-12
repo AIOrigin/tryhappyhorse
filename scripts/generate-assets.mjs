@@ -99,6 +99,7 @@ function parseArgs(argv) {
     overwrite: false,
     uploadS3: false,
     s3Prefix: 'generated',
+    concurrency: 1,
     help: false,
   };
 
@@ -137,6 +138,11 @@ function parseArgs(argv) {
       continue;
     }
 
+    if (rawArg.startsWith('--concurrency=')) {
+      args.concurrency = Math.max(1, parseInt(rawArg.slice('--concurrency='.length), 10) || 1);
+      continue;
+    }
+
     throw new Error(`Unknown argument: ${rawArg}`);
   }
 
@@ -149,6 +155,7 @@ function printHelp() {
   process.stdout.write(`  --env-file=<path>     Override env file (default: ${DEFAULT_ENV_FILE})\n`);
   process.stdout.write(`  --slugs=a,b,c         Generate only the specified page slugs\n`);
   process.stdout.write(`  --overwrite           Regenerate even if output files already exist\n`);
+  process.stdout.write(`  --concurrency=N       Generate N images in parallel (default: 1)\n`);
   process.stdout.write(`  --upload-s3           Upload generated files to S3 using AWS env credentials\n`);
   process.stdout.write(`  --s3-prefix=<path>    CDN/S3 key prefix for uploads (default: generated)\n`);
   process.stdout.write(`  --help                Show this help\n`);
@@ -203,6 +210,7 @@ async function loadPages() {
       slug,
       title: frontmatter.title,
       answerSummary: frontmatter.answer_summary,
+      imagePrompt: frontmatter.images?.image_prompt,
       images: frontmatter.images ?? {},
     });
   }
@@ -211,6 +219,11 @@ async function loadPages() {
 }
 
 function buildPrompt(page) {
+  // Priority: 1) frontmatter image_prompt  2) PROMPT_OVERRIDES  3) auto-generated
+  if (page.imagePrompt) {
+    return page.imagePrompt;
+  }
+
   if (PROMPT_OVERRIDES[page.slug]) {
     return PROMPT_OVERRIDES[page.slug];
   }
@@ -388,21 +401,34 @@ async function main() {
     throw new Error('No pages selected for asset generation.');
   }
 
+  // Filter out pages that already have images (unless --overwrite)
+  const pagesToProcess = [];
   for (const page of selectedPages) {
-    const outputFileName = `${page.slug}.png`;
-    const outputPath = path.join(OUTPUT_ROOT, outputFileName);
-
+    const outputPath = path.join(OUTPUT_ROOT, `${page.slug}.png`);
     if (!args.overwrite) {
       try {
         await access(outputPath);
-        process.stdout.write(`Skipping ${page.slug}: ${outputFileName} already exists. Use --overwrite to regenerate.\n`);
+        process.stdout.write(`Skipping ${page.slug}: ${page.slug}.png already exists. Use --overwrite to regenerate.\n`);
         continue;
       } catch {
-        // continue to generation
+        // needs generation
       }
     }
+    pagesToProcess.push(page);
+  }
 
+  if (pagesToProcess.length === 0) {
+    process.stdout.write('All images already exist. Nothing to generate.\n');
+    return;
+  }
+
+  process.stdout.write(`Generating ${pagesToProcess.length} images (concurrency: ${args.concurrency})...\n`);
+
+  async function processPage(page) {
+    const outputFileName = `${page.slug}.png`;
+    const outputPath = path.join(OUTPUT_ROOT, outputFileName);
     const prompt = buildPrompt(page);
+
     process.stdout.write(`Creating task for ${page.slug}...\n`);
     const taskId = await createTask({
       baseUrl,
@@ -414,7 +440,8 @@ async function main() {
     const result = await pollTask({ baseUrl, apiKey, taskId });
 
     if (result.status !== 'SUCCEEDED') {
-      throw new Error(`Task ${taskId} for ${page.slug} ended with status ${result.status}.`);
+      process.stderr.write(`FAILED: ${page.slug} — task ${taskId} ended with status ${result.status}.\n`);
+      return { slug: page.slug, status: 'failed', error: result.status };
     }
 
     const imageUrl = extractImageUrl(result);
@@ -433,9 +460,31 @@ async function main() {
       });
       process.stdout.write(`Uploaded ${page.slug} -> ${cdnUrl}\n`);
     }
+
+    return { slug: page.slug, status: 'ok' };
   }
 
-  process.stdout.write('Asset generation complete.\n');
+  // Concurrency-limited execution
+  const results = [];
+  const concurrency = args.concurrency;
+
+  for (let i = 0; i < pagesToProcess.length; i += concurrency) {
+    const batch = pagesToProcess.slice(i, i + concurrency);
+    const batchResults = await Promise.allSettled(batch.map(processPage));
+
+    for (const r of batchResults) {
+      if (r.status === 'fulfilled') {
+        results.push(r.value);
+      } else {
+        results.push({ slug: 'unknown', status: 'error', error: r.reason?.message });
+        process.stderr.write(`Error: ${r.reason?.message}\n`);
+      }
+    }
+  }
+
+  const succeeded = results.filter(r => r?.status === 'ok').length;
+  const failed = results.filter(r => r?.status !== 'ok').length;
+  process.stdout.write(`\nAsset generation complete: ${succeeded} succeeded, ${failed} failed.\n`);
 }
 
 await main();
