@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   applicationName: SITE_NAME,
   title: SITE_NAME,
   description: siteCopy.metadata.siteDescription,
+  verification: {
+    other: {
+      'baidu-site-verification': 'codeva-4MsLl56Xlo',
+    },
+  },
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
