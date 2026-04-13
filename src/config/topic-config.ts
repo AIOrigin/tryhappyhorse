@@ -9,6 +9,8 @@ export type TopicConfig = {
   siteName: string;
   /** Google Tag Manager container ID */
   gtmId: string;
+  /** Google Analytics 4 Measurement ID (G-XXXXXXXXXX) */
+  ga4Id: string;
   /** Baidu site verification token (empty string to skip) */
   baiduVerification: string;
   /** IndexNow key (32-char hex) */
@@ -45,6 +47,7 @@ const TOPIC_CONFIGS: Record<string, TopicConfig> = {
     domain: 'https://tryhappyhorse.xyz',
     siteName: 'HappyHorse AI Video Guide',
     gtmId: 'GTM-WGQVVGFZ',
+    ga4Id: 'G-3BJXKC1D89',
     baiduVerification: 'codeva-4MsLl56Xlo',
     indexNowKey: '34fb6d41c2891656cec8226e0b25c66d',
     leadMagnetFormAction:

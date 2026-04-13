@@ -35,6 +35,15 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang={getHtmlLang(DEFAULT_LOCALE)}>
+      <head>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${topicConfig.ga4Id}`} />
+        <script
+          id="ga4-config"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${topicConfig.ga4Id}');`,
+          }}
+        />
+      </head>
       <body>
         <script
           id="gtm-loader"
