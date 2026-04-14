@@ -28,7 +28,7 @@ export function PageShell({ page, viewModel, content }: PageShellProps) {
   const isCanonicalAppEntry = page.data.route.is_canonical_app_entry;
   const hasHeroMedia = Boolean(viewModel.seo.heroImagePath);
   const heroCta = isHomepage
-    ? { href: viewModel.cta.href, label: 'Try AI Image Animator — Free', isExternal: true }
+    ? { href: viewModel.cta.href, label: 'Create Your First AI Video — Free', isExternal: true }
     : { href: '#lead-magnet', label: 'Get the free guide', isExternal: false };
   const routeDiscoveryPages = [
     { path: '/', title: copy.breadcrumbs.homeLabel },
